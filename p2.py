@@ -97,3 +97,9 @@ shuffle(deck)
 for i in range(0, count):
     deck[i].__repr__()
 
+
+
+"""ultimately, we would code this using the state machine stuff. however, since this
+first part is supposed to be quick and dirty, we'll probably do turn order
+as a for loop over the number of players, which a while loop inside so the player
+may play as many cards as they desire"""
