@@ -1,20 +1,38 @@
 import random, sys
 
-
 class Card:
     def __init__(self, val, suit, color):
         # card number 0-10,J,Q,K
         self.val = val
-        # card suit d = diamond, h = heart, c = club, s = spade
+        # card suit diamond, heart, club, spade
         self.suit = suit
         # extra color field because king's corner doesn't care about suit specifically (b or r)
         self.color = color
+
+        # card value is based on the number, but is not always displayed as the number
+        if val == 1:
+            self.valSym = 'A'
+        elif val == 11:
+            self.valSym = 'J'
+        elif val == 12:
+            self.valSym = 'Q'
+        elif val == 13:
+            self.valSym = 'K'
+        else:
+            self.valSym = str(val)
 
     def __repr__(self):
         print("Card value: " + str(self.val))
         print("Card suit: " + self.suit)
         print("Card color: " + self.color)
         print()
+
+    # more specified card string representation for game board presentation
+    def getCard(self):
+
+        card = self.valSym + ' of ' + self.suit + 's'
+        return card
+
 class Player:
     def __init__(self, num, name):
         # num = player number
@@ -53,8 +71,13 @@ class Field:
         self.top = 0
         self.bot = 0
 
+    def playOnto(self, card):
+        1
+        # change top card if applicable
 
-
+    def moveToField(self, stack):
+        1
+        # move this stack to the top of another stack
 
 class Board:
     # A board is made of a deck and field for playing cards
@@ -74,7 +97,6 @@ class Board:
         self.Stop = None
         self.Etop = None
         self.Wtop = None
-
         self.Nbot = None
         self.Sbot = None
         self.Ebot = None
@@ -108,18 +130,31 @@ class Game:
             self.numplayers = 4
         self.notdone = False
 
+    # prints an ASCII display of the current player's view of the game board
+    # this will include the playing field, the cards, show the hand to the player given, and the number of cards in
+    # other player's hands
+    def printBoard(self, player):
+
+
+
+        #player's hand
+        print("Player's Hand (%d Cards):" % (len(player.hand)))
+        for c in player.hand:
+            print(c.getCard(), end='')
+            print(', ', end='')
+
 
 
 def initdeck(d):
     # makes each card in a deck in unshuffled order
-    for i in range(0, 13):
-        d.append(Card(i, 'h', 'red'))
-    for i in range(0, 13):
-        d.append(Card(i, 'd', 'red'))
-    for i in range(0, 13):
-        d.append(Card(i, 'c', 'black'))
-    for i in range(0, 13):
-        d.append(Card(i, 's', 'black'))
+    for i in range(1, 14):
+        d.append(Card(i, 'heart', 'red'))
+    for i in range(1, 14):
+        d.append(Card(i, 'diamond', 'red'))
+    for i in range(1, 14):
+        d.append(Card(i, 'club', 'black'))
+    for i in range(1, 14):
+        d.append(Card(i, 'spade', 'black'))
     return 52
 
 
@@ -181,14 +216,28 @@ def kingscorner():
     # play 1 card in each N,S,E,W
     game.board.initfields()
 
+    game.printBoard(p1)
+
+
+
+
+
     # everything is set, now loop on turns and give rules per turn
-    # while game.notdone:
-        # start a turn
+    #while 1:
+    #    for turn in range(numplayers):
+   #         turnend = false
+    #        while not turnend:
+     #           1
+     #           # wait for move input
+
 
 
 kingscorner()
 
-"""ultimately, we would code this using the state machine stuff. however, since this
- +first part is supposed to be quick and dirty, we'll probably do turn order
- +as a for loop over the number of players, which a while loop inside so the player
- +may play as many cards as they desire"""
+
+
+
+
+
+
+
