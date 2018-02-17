@@ -87,13 +87,6 @@ class Field:
         self.top = 0
         self.bot = 0
 
-    def playOnto(self, card):
-        1
-        # change top card if applicable
-
-    #def moveToField(self, stack):
-        # move this stack to the top of another stack
-
 class Board:
     # A board is made of a deck and field for playing cards
     def __init__(self, deck, N, S, E, W, C1, C2, C3, C4):
@@ -133,11 +126,8 @@ class Board:
         self.C4.top = empty
         self.C4.bot = empty
 
-        self.N.top = empty
-        self.N.bot = empty
-
-        # self.N.top = self.deck.pop()
-        # self.N.bot = self.N.top
+        self.N.top = self.deck.pop()
+        self.N.bot = self.N.top
 
         self.S.top = self.deck.pop()
         self.S.bot = self.S.top
