@@ -32,7 +32,6 @@ class Card:
 
     # more specified card string representation for game board presentation
     def getCard(self):
-
         card = self.valSym + ' of ' + self.suit + 's'
         return card
 
@@ -59,12 +58,26 @@ class Player:
         for i in range(0, repeat):
             self.draw(d)
 
-    def play(self, index):
+    def play(self, index, field, name):
         if index >= self.cc:
             print("Error: Trying to play a card out of index of the players hand")
-            sys.exit()
+            return
         # this is broken ***********************************
-        return self.hand.pop([index])
+        card = self.hand[index]
+        #if the field is empty
+        if field.top.val == 0:
+            if name == 'c1' or name == 'c2' or name == 'c3' or name == 'c4': #field is in the corner
+                if card.val == 13:
+                    field.top = field.bot = card
+                    self.hand.remove(card)
+            else: #not in the corner
+                field.top = field.bot = card
+                self.hand.remove(card)
+        else: #field is not empty, check the color and number
+            if field.top.color != card.color and card.val == field.top.val - 1:
+                field.top = card
+                self.hand.remove(card)
+        #self.hand.pop([index])
 
 
 class Field:
@@ -78,8 +91,7 @@ class Field:
         1
         # change top card if applicable
 
-    def moveToField(self, stack):
-        1
+    #def moveToField(self, stack):
         # move this stack to the top of another stack
 
 class Board:
@@ -94,6 +106,7 @@ class Board:
         self.C2 = C2
         self.C3 = C3
         self.C4 = C4
+        self.boardDic = {'n': self.N, 's':self.S, 'e': self.E, 'w': self.W, 'c1': self.C1, 'c2': self.C2, 'c3': self.C3, 'c4': self.C4}
         # Currently only represeting the top and bottom card for fields
 
         """self.Ntop = None
@@ -120,8 +133,11 @@ class Board:
         self.C4.top = empty
         self.C4.bot = empty
 
-        self.N.top = self.deck.pop()
-        self.N.bot = self.N.top
+        self.N.top = empty
+        self.N.bot = empty
+
+        # self.N.top = self.deck.pop()
+        # self.N.bot = self.N.top
 
         self.S.top = self.deck.pop()
         self.S.bot = self.S.top
@@ -131,6 +147,22 @@ class Board:
 
         self.W.top = self.deck.pop()
         self.W.bot = self.W.top
+
+    def move(self, src_field, des_field):
+        print(src_field)
+        print(self.boardDic[src_field].top.val)
+        #check if src_field is empty
+        if self.boardDic[src_field].bot.val == 0:
+            print('source field is empty')
+        else:
+            # move Ks to any corner(empty)
+            if (des_field == 'c1' or des_field == 'c2' or des_field == 'c3' or des_field == 'c4') and self.boardDic[src_field].bot.val == 13 and self.boardDic[des_field].top.val == 0:
+                self.boardDic[des_field].top = self.boardDic[src_field].top
+                self.boardDic[des_field].bot = self.boardDic[src_field].bot
+                self.boardDic[src_field].top = self.boardDic[src_field].bot = Card(0, 'empty', 'empty')
+            elif self.boardDic[des_field].top != 0 and self.boardDic[src_field].bot.color != self.boardDic[des_field].top.color and self.boardDic[src_field].bot.val == self.boardDic[des_field].top.val - 1:
+                self.boardDic[des_field].top = self.boardDic[src_field].top
+                self.boardDic[src_field].top = self.boardDic[src_field].bot = Card(0, 'empty', 'empty')
 
 class Game:
     # A game has a board, players p1-p4, and numplayers
@@ -204,9 +236,11 @@ class Game:
 
         #player's hand
         print("Player's (%s) Hand (%d Cards):" % (player.name, len(player.hand)))
+        i = 0
         for c in player.hand:
-            print(c.getCard(), end='')
+            print("(#%d - %s)" % (i, c.getCard()), end='')
             print(', ', end='')
+            i = i + 1
         print('')
         print('')
 
@@ -331,18 +365,27 @@ def kingscorner():
                     EX: move E C1
                 draw -> draws one card and ends your turn
                 """
-                move = input("What will you do?: ")
+                move = input("What will you do? (h for help): ")
                 move = move.lower()
 
                 if move == 'draw':
                     p.draw(deck)
                     turnend = 1
                 elif move.startswith('play'):
+                    move = move.replace(' ', '').split(':')[1]
+                    stack = board.boardDic[move.split(",")[1]]
+                    p.play(int(move.split(",")[0]), stack, move.split(",")[1])
+                    game.printBoard(p)
                     1 #here we will put parsing for parameters, then call a function for playing from hand
                 elif move.startswith('move'):
+                    move = move.replace(' ', '').split(':')[1]
+                    board.move(move.split(",")[0], move.split(",")[1])
+                    game.printBoard(p)
                     1 #here we will put parsing for parameters, then call a function for moving stacks
-                elif move.startswith('love'):
-                    print('Cute.')
+                elif move.startswith('h'):
+                    print('\"draw\" \t\t\t\t\t\tto draw a card from the desk and end your turn;')
+                    print('\"play: card_index, destination field\" \t\tto play the card in your hand to destination field. Card index is in ();')
+                    print('\"move: source field, destination field\"\t\tto move cards from source field to destination field.')
                 else:
                     print('Invalid syntax')
 
