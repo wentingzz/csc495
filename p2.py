@@ -137,16 +137,22 @@ class Game:
     # p1 and p2 are required, with option p3 and p4
     def __init__(self, board, p1, p2, p3=0, p4=0):
         self.board = board
+        self.players = []
         self.p1 = p1
+        self.players.append(p1)
         self.p2 = p2
+        self.players.append(p2)
         self.numplayers = 2
         self.p3 = p3
         self.p4 = p4
         if p3 != 0:
             self.numplayers = 3
+            self.players.append(p3)
         if p4 != 0:
             self.numplayers = 4
+            self.players.append(p4)
         self.notdone = False
+
 
     # prints an ASCII display of the current player's view of the game board
     # this will include the playing field, the cards, show the hand to the player given, and the number of cards in
@@ -158,7 +164,7 @@ class Game:
             game.board.N,S,E,W,C1,C2,C3,C4 for each field
             game.board.N.top = the current card on the field you can play a card ontop of, 0 = blank
             game.board.N.bot = the bottom card of a stack for moving how stacks
-            game.p1,p2,p3,p4 for players
+            game.players[n] for players
             """
 
 
@@ -197,7 +203,7 @@ class Game:
         print()
 
         #player's hand
-        print("Player's Hand (%d Cards):" % (len(player.hand)))
+        print("Player's (%s) Hand (%d Cards):" % (player.name, len(player.hand)))
         for c in player.hand:
             print(c.getCard(), end='')
             print(', ', end='')
@@ -262,6 +268,7 @@ def kingscorner():
     p2 = 0
     p3 = 0
     p4 = 0
+    players = []
     pname = input("Name of player 1?: ")
     p1 = Player(1, pname)
     pname2 = input("Name of player 2?: ")
@@ -288,35 +295,67 @@ def kingscorner():
     game.board.N,S,E,W,C1,C2,C3,C4 for each field
     game.board.N.top = the current card on the field you can play a card ontop of, 0 = blank
     game.board.N.bot = the bottom card of a stack for moving how stacks
-    game.p1,p2,p3,p4 for players 
+    game.players[n] for players 
     """
 
     # draw 7 cards each
-    game.p1.newhand(deck)
-    game.p2.newhand(deck)
-    if numplayers >= 3:
-        game.p3.newhand(deck)
-    if numplayers >= 4:
-        game.p4.newhand(deck)
+    for p in game.players:
+        p.newhand(deck)
 
     # play 1 card in each N,S,E,W
     game.board.initfields()
 
-    game.printBoard(p1)
 
 
 
-
-
+    gamewin = 0
+    winner = ''
     # everything is set, now loop on turns and give rules per turn
-    #while 1:
-    #    for turn in range(numplayers):
-   #         turnend = false
-    #        while not turnend:
-     #           1
-     #           # wait for move input
+    while not gamewin:
 
+        #go in turn order
+        for p in game.players:
+            game.printBoard(p)
+            move = 'temp'
+            turnend = 0
+            while not turnend:
+                # wait for move input
+                """
+                not case sensitive
+                    
+                MOVES:
+                play (card in hand) (field) -> plays the card from your hand onto the field, if possible
+                    EX: play 2 of hearts E
+                            IF WE HAVE TIME, do some shorthand notation
+                move (field1) (field2) -> moves cards in field 1 onto field 2
+                    EX: move E C1
+                draw -> draws one card and ends your turn
+                """
+                move = input("What will you do?: ")
+                move = move.lower()
 
+                if move == 'draw':
+                    p.draw(deck)
+                    turnend = 1
+                elif move.startswith('play'):
+                    1 #here we will put parsing for parameters, then call a function for playing from hand
+                elif move.startswith('move'):
+                    1 #here we will put parsing for parameters, then call a function for moving stacks
+                elif move.startswith('love'):
+                    print('Cute.')
+                else:
+                    print('Invalid syntax')
+
+                if len(p.hand) == 0:
+                    gamewin = 1
+                    winner = p.name
+                    break
+
+            if gamewin:
+                break
+
+    #this means the game has ended
+    print('Congrats %s, you win~' % winner)
 
 kingscorner()
 
