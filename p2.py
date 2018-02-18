@@ -374,7 +374,7 @@ def kingscorner():
                     1 #here we will put parsing for parameters, then call a function for moving stacks
                 elif move.startswith('h'):
                     print('\"draw\" \t\t\t\t\t\tto draw a card from the desk and end your turn;')
-                    print('\"play: card_index, destination field\" \t\tto play the card in your hand to destination field. Card index is in ();')
+                    print('\"play: card_index, destination field\" \t\tto play the card in your hand to destination field. Card index is after #;')
                     print('\"move: source field, destination field\"\t\tto move cards from source field to destination field.')
                 else:
                     print('Invalid syntax')
