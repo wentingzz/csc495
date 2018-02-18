@@ -54,13 +54,23 @@ class Player:
         for i in range(0, repeat):
             self.draw(d)
 
-    def play(self, index, field, name):
-        1
+    def play(self, board, index):
+        if index >= self.cc:
+            print("Error: Trying to play a card out of index of the players hand")
+            return 0
+        else:
+            card = self.hand[index]
+            if board.top.suit == card.suit or board.top.val == card.val:
+                board.top = card
+                self.hand.remove(card)
+                self.cc = self.cc - 1
+                return 1
 
 class Board:
     # A board is made of a deck and field for playing cards
     def __init__(self, deck):
         self.deck = deck
+        self.top = deck.pop()
         # Currently only represeting the top and bottom card for fields
 
     def initfields(self):
@@ -101,40 +111,18 @@ class Game:
             game.players[n] for players
             """
 
-
-        #print the board
-        print('*---------------------------*---------------------------*---------------------------*')
+        print('*---------------------------*                           *---------------------------*')
         print('|                           |                           |                           |')
-        print('| Top: %16s     | Top: %16s     | Top: %16s     |' % (self.board.C1.top, self.board.N.top, self.board.C2.top,))
         print('|                           |                           |                           |')
-        print('|            ****           |            ***            |            ****           |')
-        print('|            *C1*           |            *N*            |            *C2*           |')
-        print('|            ****           |            ***            |            ****           |')
         print('|                           |                           |                           |')
-        print('| Bottom: %13s     | Bottom: %13s     | Bottom: %13s     |' % (self.board.C1.bot, self.board.N.bot, self.board.C2.bot,))
         print('|                           |                           |                           |')
-        print('*---------------------------*---------------------------*---------------------------*')
+        print('|           DECK            |                           |          PLAYED           |')
+        print('|          %2d CARDS         |                           |       %13s       |' % (len(self.board.deck), self.board.top))
         print('|                           |                           |                           |')
-        print('| Top: %16s     |                           | Top: %16s     |' % ( self.board.W.top, self.board.E.top, ))
         print('|                           |                           |                           |')
-        print('|            ***            |                           |            ***            |')
-        print('|            *W*            |           DECK            |            *E*            |')
-        print('|            ***            |          %2d CARDS         |            ***            |' % len(self.board.deck))
         print('|                           |                           |                           |')
-        print('| Bottom: %13s     |                           | Bottom: %13s     |' % (self.board.W.bot, self.board.E.bot))
         print('|                           |                           |                           |')
-        print('*---------------------------*---------------------------*---------------------------*')
-        print('|                           |                           |                           |')
-        print('| Top: %16s     | Top: %16s     | Top: %16s     |' % (self.board.C3.top,self.board.S.top,  self.board.C4.top))
-        print('|                           |                           |                           |')
-        print('|            ****           |            ***            |            ****           |')
-        print('|            *C3*           |            *S*            |            *C4*           |')
-        print('|            ****           |            ***            |            ****           |')
-        print('|                           |                           |                           |')
-        print('| Bottom: %13s     | Bottom: %13s     | Bottom: %13s     |' % (self.board.C3.bot,  self.board.S.bot, self.board.C4.bot))
-        print('|                           |                           |                           |')
-        print('*---------------------------*---------------------------*---------------------------*')
-        print()
+        print('*---------------------------*                           *---------------------------*')
 
         #player's hand
         print("Player's (%s) Hand (%d Cards):" % (player.name, len(player.hand)))
@@ -244,7 +232,6 @@ def bartok():
                 # wait for move input
                 """
                 not case sensitive
-                    
                 MOVES:
                 play (card in hand) (field) -> plays the card from your hand onto the field, if possible
                     EX: play 2 of hearts E
@@ -258,17 +245,14 @@ def bartok():
 
                 if move == 'draw':
                     p.draw(deck)
+                    count = count - 1
                     turnend = 1
                 elif move.startswith('play'):
-                    move = move.replace(' ', '').split(':')[1]
-                    stack = board.boardDic[move.split(",")[1]]
-                    p.play(int(move.split(",")[0]), stack, move.split(",")[1])
-                    game.printBoard(p)
-                    turnend = 1
+                    turnend = p.play(board, int(move.split(" ")[1]))
                     #here we will put parsing for parameters, then call a function for playing from hand
                 elif move.startswith('h'):
-                    print('\"draw\" \t\t\t\t\t\tto draw a card from the desk and end your turn;')
-                    print('\"play: card_index, destination field\" \t\tto play the card in your hand to destination field. Card index is in ();')
+                    print('\"draw\"\t\t\tto draw a card from the desk and end your turn;')
+                    print('\"play card_index\"\tto play the card in your hand to destination field. Card index is after #;')
                 else:
                     print('Invalid syntax')
 
