@@ -65,6 +65,17 @@ class Player:
                 self.hand.remove(card)
                 self.cc = self.cc - 1
                 return 1
+            return 0
+
+    # if you have 4 of the same rank, you win
+    def rank4(self):
+        ranks = {"A": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0, "7": 0, "8": 0, "9": 0, "10": 0, "J": 0, "Q": 0, "K": 0}
+        for c in self.hand:
+            ranks[c.valSym] = ranks[c.valSym] + 1
+        for i in ranks:
+            if ranks[i] == 4:
+                return 1
+        return 0
 
 class Board:
     # A board is made of a deck and field for playing cards
@@ -230,16 +241,13 @@ def bartok():
             turnend = 0
             while not turnend:
                 # wait for move input
-                """
-                not case sensitive
-                MOVES:
-                play (card in hand) (field) -> plays the card from your hand onto the field, if possible
-                    EX: play 2 of hearts E
-                            IF WE HAVE TIME, do some shorthand notation
-                move (field1) (field2) -> moves cards in field 1 onto field 2
-                    EX: move E C1
-                draw -> draws one card and ends your turn
-                """
+
+                gamewin = p.rank4()
+                if gamewin == 1:
+                    winner = p.name
+                    print('Player %s has all 4 cards of the same rank, so he wins!' % winner)
+                    break
+
                 move = input("What will you do? (h for help): ")
                 move = move.lower()
 
@@ -248,17 +256,30 @@ def bartok():
                     count = count - 1
                     turnend = 1
                 elif move.startswith('play'):
-                    turnend = p.play(board, int(move.split(" ")[1]))
-                    #here we will put parsing for parameters, then call a function for playing from hand
+                    try:
+                        turnend = p.play(board, int(move.split(" ")[1]))
+                        if turnend != 1:
+                            print('Card played must be of the same rank or suit as face up on playing stack')
+                    except IndexError:
+                            print('Invalid syntax. Type \'h\' for a list of moves')
                 elif move.startswith('h'):
-                    print('\"draw\"\t\t\tto draw a card from the desk and end your turn;')
-                    print('\"play card_index\"\tto play the card in your hand to destination field. Card index is after #;')
+                    try:
+                        print('\"draw\"\t\t\tto draw a card from the desk and end your turn;')
+                        print('\"play card_index\"\tto play the card in your hand to destination field. Card index is after #;')
+                    except IndexError:
+                        print('Invalid syntax. Type \'h\' for a list of moves')
                 else:
-                    print('Invalid syntax')
+                    print('Invalid syntax. Type \'h\' for a list of moves')
 
                 if len(p.hand) == 0:
                     gamewin = 1
                     winner = p.name
+                    break
+
+                gamewin = p.rank4()
+                if gamewin == 1:
+                    winner = p.name
+                    print('Player %s has all 4 cards of the same rank, so he wins!' % winner)
                     break
 
             if gamewin:
