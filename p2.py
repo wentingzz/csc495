@@ -339,45 +339,41 @@ def kingscorner():
 
         #go in turn order
         for p in game.players:
-            game.printBoard(p)
             move = 'temp'
             turnend = 0
+            p.draw(deck)
+            game.printBoard(p)
             while not turnend:
                 # wait for move input
-                """
-                not case sensitive
-                    
-                MOVES:
-                play (card in hand) (field) -> plays the card from your hand onto the field, if possible
-                    EX: play 2 of hearts E
-                            IF WE HAVE TIME, do some shorthand notation
-                move (field1) (field2) -> moves cards in field 1 onto field 2
-                    EX: move E C1
-                draw -> draws one card and ends your turn
-                """
                 move = input("What will you do? (h for help): ")
                 move = move.lower()
 
-                if move == 'draw':
-                    p.draw(deck)
+                if move == 'end':
                     turnend = 1
                 elif move.startswith('play'):
-                    move = move.replace(' ', '').split(':')[1]
-                    stack = board.boardDic[move.split(",")[1]]
-                    p.play(int(move.split(",")[0]), stack, move.split(",")[1])
-                    game.printBoard(p)
-                    1 #here we will put parsing for parameters, then call a function for playing from hand
+                    try:
+                        move = move.replace(' ', '').split(':')[1]
+                        stack = board.boardDic[move.split(",")[1]]
+                        p.play(int(move.split(",")[0]), stack, move.split(",")[1])
+                        game.printBoard(p)
+                    except IndexError:
+                        print('Invalid syntax. Type \'h\' for a list of moves')
                 elif move.startswith('move'):
-                    move = move.replace(' ', '').split(':')[1]
-                    board.move(move.split(",")[0], move.split(",")[1])
-                    game.printBoard(p)
-                    1 #here we will put parsing for parameters, then call a function for moving stacks
+                    try:
+                        move = move.replace(' ', '').split(':')[1]
+                        board.move(move.split(",")[0], move.split(",")[1])
+                        game.printBoard(p)
+                    except IndexError:
+                        print('Invalid syntax. Type \'h\' for a list of moves')
                 elif move.startswith('h'):
-                    print('\"draw\" \t\t\t\t\t\tto draw a card from the desk and end your turn;')
-                    print('\"play: card_index, destination field\" \t\tto play the card in your hand to destination field. Card index is after #;')
-                    print('\"move: source field, destination field\"\t\tto move cards from source field to destination field.')
+                    try:
+                        print('\"end\" \t\t\t\t\t\tto end your turn;')
+                        print('\"play: card_index, destination field\" \t\tto play the card in your hand to destination field. Card index is after #;')
+                        print('\"move: source field, destination field\"\t\tto move cards from source field to destination field.')
+                    except IndexError:
+                        print('Invalid syntax. Type \'h\' for a list of moves')
                 else:
-                    print('Invalid syntax')
+                    print('Invalid syntax. Type \'h\' for a list of moves')
 
                 if len(p.hand) == 0:
                     gamewin = 1
@@ -386,6 +382,8 @@ def kingscorner():
 
             if gamewin:
                 break
+
+            input('\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNEXT PLAYER, PRESS ENTER WHEN READY\n')
 
     #this means the game has ended
     print('Congrats %s, you win~' % winner)
