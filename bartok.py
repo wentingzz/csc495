@@ -6,6 +6,8 @@ class Card:
         self.val = val
         # card suit diamond, heart, club, spade
         self.suit = suit
+        # used for Ace wild card institution and reshuffling
+        self.truesuit = suit
 
         # card value is based on the number, but is not always displayed as the number
         if val == 1:
@@ -61,17 +63,32 @@ class Player:
         else:
             card = self.hand[index]
             if card.valSym == 'A':
+                # prompt user for wild card suit choosing
+                suitd = input('Please enter the first letter of the suit you wish for this Ace to represent (s, h, d, or c): ').lower()
+                if suitd == 's':
+                    card.suit == 'Spade'
+                elif suitd == 'd':
+                    card.suit == 'Diamond'
+                elif suitd == 'h':
+                    card.suit == 'Heart'
+                elif suitd == 'c':
+                    card.suit == 'Club'
+                else:
+                    print('Invalid option, please try playing the card again')
+                    return 0
+
                 board.discard.append(board.top)
                 board.top = card
                 self.hand.remove(card)
                 self.cc = self.cc - 1
                 return 1
-            elif board.top.valSym == 'A' or board.top.suit == card.suit or board.top.val == card.val:
+            elif board.top.suit == card.suit or board.top.val == card.val:
                 board.discard.append(board.top)
                 board.top = card
                 self.hand.remove(card)
                 self.cc = self.cc - 1
                 return 1
+            print('Card played must be of the same rank or suit as face up on playing stack')
             return 0
 
     # if you have 4 of the same rank, you win
@@ -95,8 +112,14 @@ class Board:
         1
 
     def reshuffle(self):
+        # shuffle the cards back into the deck, and empty discard pile
         self.deck = self.discard
         self.discard = []
+        # reset all the values of the wild card aces
+        for c in self.deck:
+            if c.valSym == 'A':
+                c.suit == c.truesuit
+
         return self.deck
 
 class Game:
@@ -275,15 +298,13 @@ def bartok():
                 elif move.startswith('play'):
                     try:
                         turnend = p.play(board, int(move.split(" ")[1]))
-                        if turnend != 1:
-                            print('Card played must be of the same rank or suit as face up on playing stack')
-                    except IndexError:
+                    except (IndexError, ValueError):
                             print('Invalid syntax. Type \'h\' for a list of moves')
                 elif move.startswith('h'):
                     try:
                         print('\"draw\"\t\t\tto draw a card from the desk and end your turn;')
                         print('\"play card_index\"\tto play the card in your hand to destination field. Card index is after #;')
-                    except IndexError:
+                    except (IndexError, ValueError):
                         print('Invalid syntax. Type \'h\' for a list of moves')
                 else:
                     print('Invalid syntax. Type \'h\' for a list of moves')
