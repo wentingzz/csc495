@@ -60,7 +60,14 @@ class Player:
             return 0
         else:
             card = self.hand[index]
-            if board.top.suit == card.suit or board.top.val == card.val:
+            if card.valSym == 'A':
+                board.discard.append(board.top)
+                board.top = card
+                self.hand.remove(card)
+                self.cc = self.cc - 1
+                return 1
+            elif board.top.valSym == 'A' or board.top.suit == card.suit or board.top.val == card.val:
+                board.discard.append(board.top)
                 board.top = card
                 self.hand.remove(card)
                 self.cc = self.cc - 1
@@ -78,14 +85,19 @@ class Player:
         return 0
 
 class Board:
-    # A board is made of a deck and field for playing cards
+    # A board is made of a deck and field for playing cards, as well as a discard
     def __init__(self, deck):
         self.deck = deck
         self.top = deck.pop()
-        # Currently only represeting the top and bottom card for fields
+        self.discard = []
 
     def initfields(self):
         1
+
+    def reshuffle(self):
+        self.deck = self.discard
+        self.discard = []
+        return self.deck
 
 class Game:
     # A game has a board, players p1-p4, and numplayers
@@ -236,6 +248,11 @@ def bartok():
 
         #go in turn order
         for p in game.players:
+
+            if len(deck) <= 0:
+                deck = game.board.reshuffle()
+                print('\nReshuffling all cards under top card in field of play back into deck...\n')
+
             game.printBoard(p)
             move = 'temp'
             turnend = 0
