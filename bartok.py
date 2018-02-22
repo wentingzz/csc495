@@ -64,6 +64,7 @@ class Player:
             card = self.hand[index]
             if card.val == 1:
                 # prompt user for wild card suit choosing
+                tempsuit = card.suit
                 suitd = input('Please enter the first letter of the suit you wish for this Ace to represent (s, h, d, or c): ').lower()
                 if suitd == 's':
                     card = Card(1, 'Spade', 'Blank')
@@ -77,6 +78,7 @@ class Player:
                     print('Invalid option, please try playing the card again')
                     return 0
 
+                card.truesuit = tempsuit
                 board.discard.append(board.top)
                 board.top = card
                 self.hand.remove(self.hand[index])
@@ -117,7 +119,7 @@ class Board:
         self.discard = []
         # reset all the values of the wild card aces
         for c in self.deck:
-            if c.valSym == 'A':
+            if c.val == 1:
                 c.suit == c.truesuit
 
         return self.deck
