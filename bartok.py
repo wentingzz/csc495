@@ -62,30 +62,30 @@ class Player:
             return 0
         else:
             card = self.hand[index]
-            if card.valSym == 'A':
+            if card.val == 1:
                 # prompt user for wild card suit choosing
                 suitd = input('Please enter the first letter of the suit you wish for this Ace to represent (s, h, d, or c): ').lower()
                 if suitd == 's':
-                    card.suit == 'Spade'
+                    card = Card(1, 'Spade', 'Blank')
                 elif suitd == 'd':
-                    card.suit == 'Diamond'
+                    card = Card(1, 'Diamond', 'Red')
                 elif suitd == 'h':
-                    card.suit == 'Heart'
+                    card = Card(1, 'Heart', 'Red')
                 elif suitd == 'c':
-                    card.suit == 'Club'
+                    card = Card(1, 'Club', 'Black')
                 else:
                     print('Invalid option, please try playing the card again')
                     return 0
 
                 board.discard.append(board.top)
                 board.top = card
-                self.hand.remove(card)
+                self.hand.remove(self.hand[index])
                 self.cc = self.cc - 1
                 return 1
             elif board.top.suit == card.suit or board.top.val == card.val:
                 board.discard.append(board.top)
                 board.top = card
-                self.hand.remove(card)
+                self.hand.remove(self.hand[index])
                 self.cc = self.cc - 1
                 return 1
             print('Card played must be of the same rank or suit as face up on playing stack')
@@ -327,11 +327,3 @@ def bartok():
     print('Congrats %s, you win~' % winner)
 
 bartok()
-
-
-
-
-
-
-
-
