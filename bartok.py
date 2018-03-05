@@ -177,8 +177,9 @@ class Game:
         i = 0
         for c in player.hand:
             print("(#%d - %s)" % (i, c.getCard()), end='')
-            print(', ', end='')
             i = i + 1
+            if i < len(player.hand):
+                print(', ', end='')
         print('')
         print('')
 
@@ -222,8 +223,11 @@ def shuffle(d):
 
 def bartok():
     # Start a new game by first getting the players
-    numplayers = int(input("How many players? (2-4): "))
-    # could error check, currently <2 gives 2 players and >4 gives 4 players
+    numplayers = 0
+    while numplayers < 2 or numplayers > 4:
+        numplayers = int(input("How many players? (2-4): "))
+        if numplayers < 2 or numplayers > 4:
+            print("Player number must be between 2 and 4")
     p1 = 0
     p2 = 0
     p3 = 0
@@ -324,6 +328,9 @@ def bartok():
 
             if gamewin:
                 break
+
+            input('\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNEXT PLAYER, PRESS ENTER WHEN READY\n')
+
 
     #this means the game has ended
     print('Congrats %s, you win~' % winner)
