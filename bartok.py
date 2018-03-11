@@ -1,4 +1,4 @@
-import random, sys
+import random, sys, select
 
 class Card:
     def __init__(self, val, suit, color):
@@ -277,7 +277,6 @@ def bartok():
 
         #go in turn order
         for p in game.players:
-
             if len(deck) <= 0:
                 deck = game.board.reshuffle()
                 print('\nReshuffling all cards under top card in field of play back into deck...\n')
@@ -287,15 +286,14 @@ def bartok():
             turnend = 0
             while not turnend:
                 # wait for move input
-
-                gamewin = p.rank4()
-                if gamewin == 1:
-                    winner = p.name
-                    print('Player %s has all 4 cards of the same rank, so he wins!' % winner)
-                    break
-
-                move = input("What will you do? (h for help): ")
-                move = move.lower()
+                print ("******* You have 30 seconds to answer the following question *******")
+                print ("What will you do? (h for help): ")
+                i, o, e = select.select([sys.stdin], [], [], 30)
+                if (i):
+                    move = sys.stdin.readline().strip()
+                    move = move.lower()
+                else:
+                    move = 'draw'
 
                 if move == 'draw':
                     p.draw(deck)
