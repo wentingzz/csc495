@@ -1,0 +1,167 @@
+How many players? (2-4): 2
+Name of player 1?: 1
+Name of player 2?: 2
+*---------------------------*                           *---------------------------*
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|           DECK            |                           |          PLAYED           |
+|          37 CARDS         |                           |          8 of Clubs       |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+*---------------------------*                           *---------------------------*
+Player's (1) Hand (7 Cards):
+(#0 - Q of Clubs), (#1 - Q of Spades), (#2 - 2 of Clubs), (#3 - 4 of Hearts), (#4 - 6 of Spades), (#5 - 10 of Diamonds), (#6 - 10 of Hearts)
+
+Number of Cards in Each Player's Hand:
+1: 7
+2: 7
+
+******* You have 30 seconds to answer the following question *******
+What will you do? (h for help): 
+Timeout!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NEXT PLAYER, PRESS ENTER WHEN READY
+
+*---------------------------*                           *---------------------------*
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|           DECK            |                           |          PLAYED           |
+|          36 CARDS         |                           |          8 of Clubs       |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+*---------------------------*                           *---------------------------*
+Player's (2) Hand (7 Cards):
+(#0 - 10 of Clubs), (#1 - 5 of Hearts), (#2 - K of Spades), (#3 - 9 of Clubs), (#4 - 8 of Hearts), (#5 - 4 of Clubs), (#6 - 6 of Diamonds)
+
+Number of Cards in Each Player's Hand:
+1: 8
+2: 7
+
+******* You have 30 seconds to answer the following question *******
+What will you do? (h for help): 
+play
+Invalid syntax. Type 'h' for a list of moves
+******* You have 30 seconds to answer the following question *******
+What will you do? (h for help): 
+h
+"draw"			to draw a card from the desk and end your turn;
+"play card_index"	to play the card in your hand to destination field. Card index is after #;
+******* You have 30 seconds to answer the following question *******
+What will you do? (h for help): 
+play 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NEXT PLAYER, PRESS ENTER WHEN READY
+
+*---------------------------*                           *---------------------------*
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|           DECK            |                           |          PLAYED           |
+|          36 CARDS         |                           |          9 of Clubs       |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+*---------------------------*                           *---------------------------*
+Player's (1) Hand (8 Cards):
+(#0 - Q of Clubs), (#1 - Q of Spades), (#2 - 2 of Clubs), (#3 - 4 of Hearts), (#4 - 6 of Spades), (#5 - 10 of Diamonds), (#6 - 10 of Hearts), (#7 - 2 of Spades)
+
+Number of Cards in Each Player's Hand:
+1: 8
+2: 6
+
+******* You have 30 seconds to answer the following question *******
+What will you do? (h for help): 
+play 8
+Error: Trying to play a card out of index of the players hand
+******* You have 30 seconds to answer the following question *******
+What will you do? (h for help): 

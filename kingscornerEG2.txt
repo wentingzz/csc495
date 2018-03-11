@@ -1,0 +1,131 @@
+How many players? (2-4): 2
+Name of player 1?: 1
+Name of player 2?: 2
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:    9 of Diamonds     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom: 9 of Diamonds     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:      4 of Hearts     |                           | Top:      6 of Spades     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          33 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom:   4 of Hearts     |                           | Bottom:   6 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:      3 of Spades     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom:   3 of Spades     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (1) Hand (8 Cards):
+(#0 - A of Spades), (#1 - 3 of Clubs), (#2 - 2 of Diamonds), (#3 - 8 of Hearts), (#4 - 8 of Diamonds), (#5 - J of Hearts), (#6 - J of Clubs), (#7 - 2 of Clubs)
+
+Number of Cards in Each Player's Hand:
+1: 8
+2: 7
+
+What will you do? (h for help): play: 2
+Invalid syntax. Type 'h' for a list of moves
+What will you do? (h for help): play 2,s
+Invalid syntax. Type 'h' for a list of moves
+What will you do? (h for help): play: 2,s
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:    9 of Diamonds     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom: 9 of Diamonds     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:      4 of Hearts     |                           | Top:      6 of Spades     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          33 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom:   4 of Hearts     |                           | Bottom:   6 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:    2 of Diamonds     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom:   3 of Spades     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (1) Hand (7 Cards):
+(#0 - A of Spades), (#1 - 3 of Clubs), (#2 - 8 of Hearts), (#3 - 8 of Diamonds), (#4 - J of Hearts), (#5 - J of Clubs), (#6 - 2 of Clubs)
+
+Number of Cards in Each Player's Hand:
+1: 7
+2: 7
+
+What will you do? (h for help): move s,w 
+Invalid syntax. Type 'h' for a list of moves
+What will you do? (h for help): move s,4
+Invalid syntax. Type 'h' for a list of moves
+What will you do? (h for help): move: s,w
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:    9 of Diamonds     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom: 9 of Diamonds     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:    2 of Diamonds     |                           | Top:      6 of Spades     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          33 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom:   4 of Hearts     |                           | Bottom:   6 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:             NONE     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom:          NONE     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (1) Hand (7 Cards):
+(#0 - A of Spades), (#1 - 3 of Clubs), (#2 - 8 of Hearts), (#3 - 8 of Diamonds), (#4 - J of Hearts), (#5 - J of Clubs), (#6 - 2 of Clubs)
+
+Number of Cards in Each Player's Hand:
+1: 7
+2: 7
+
+What will you do? (h for help):

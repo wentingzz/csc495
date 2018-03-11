@@ -1151,7 +1151,7 @@ Number of Cards in Each Player's Hand:
 
 ******* You have 30 seconds to answer the following question *******
 What will you do? (h for help):
-Timeout!
+draw
 
 
 
