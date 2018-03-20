@@ -16,3 +16,4 @@ Make classes:
 	reshuffle
 	initboard
 	rank4
+	beginGame
