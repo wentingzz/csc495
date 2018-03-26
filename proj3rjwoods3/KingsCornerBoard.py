@@ -1,20 +1,25 @@
+from Board import Board
+from Field import Field
+from Card import Card
+
 class KingsCornerBoard(Board):
 
     """
         The only field shared by the two games is a deck
     """
-    def __init__(self, deck, players, numberPlayers, N, S, E, W, C1, C2, C3, C4):
+    def __init__(self, deck, players, numberPlayers):
         self.deck = deck
         self.players = players
         self.numberPlayers = numberPlayers
-        self.N = N
-        self.S = S
-        self.E = E
-        self.W = W
-        self.C1 = C1
-        self.C2 = C2
-        self.C3 = C3
-        self.C4 = C4
+        self.N = Field()
+        self.S = Field()
+        self.E = Field()
+        self.W = Field()
+        self.C1 = Field()
+        self.C2 = Field()
+        self.C3 = Field()
+        self.C4 = Field()
+
         self.boardDic = {'n': self.N, 's': self.S, 'e': self.E, 'w': self.W, 'c1': self.C1, 'c2': self.C2, 'c3': self.C3, 'c4': self.C4}
 
     """

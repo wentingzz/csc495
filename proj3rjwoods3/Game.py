@@ -1,6 +1,6 @@
 import sys
-from bartok import bartok
-from kingscorner import kingscorner
+from Bartok import Bartok
+from KingsCorner import KingsCorner
 from enum import Enum
 
 class Game():
@@ -19,10 +19,10 @@ gameChoice = int(input("Which game would you like to play?\n0 - Bartok\n1 - King
 gametype = None
 if gameChoice == 0:
     print("You chose Bartok")
-    gameType = bartok
+    gameType = Bartok
 elif gameChoice == 1:
     print("You chose Kings Corner")
-    gameType = kingscorner
+    gameType = KingsCorner
 else:
     sys.exit("Invalid game selected")
 

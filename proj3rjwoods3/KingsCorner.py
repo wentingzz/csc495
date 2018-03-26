@@ -1,35 +1,23 @@
-import random, sys, select
-from BartokBoard import BartokBoard
-from BartokRules import BartokRules
+import random, sys
+from KingsCornerBoard import KingsCornerBoard
+from KingsCornerRules import KingsCornerRules
 from Card import Card
 from Field import Field
 from Player import Player
 
-class Bartok:
+class KingsCorner:
 
     numplayers = 0
 
     def getMoveFromPlayer(self):
-
-        #this doesnt seem to work anymore. i'll do standard input for now
-        """
-
-        # wait for move input
-        print ("******* You have 30 seconds to complete your turn *******")
-        print ("What will you do? (h for help): ")
-        i, o, e = select.select([sys.stdin], [], [], 30)
-
-        if (i):
-            move = sys.stdin.readline().strip()
-            move = move.lower()
-        else:
-            move = 'draw'
-
-        """
         move = input("What will you do? (h for help): ")
         move = move.lower()
 
         return move
+
+    def prepareTurn(self, board, rules, player):
+        player.drawFromDeck(board.deck)
+        rules.printBoard(board, player)
 
     def initPlayers(self):
 
@@ -48,40 +36,43 @@ class Bartok:
 
     def __init__(self):
 
-        rules = BartokRules()
+        rules = KingsCornerRules()
 
         # init players
         players = self.initPlayers()
         numplayers = self.numplayers
         # init deck
         deck = rules.createDeck()
-        #create board
-        board = BartokBoard(deck, players, numplayers)
+        # create board
+        board = KingsCornerBoard(deck, players, numplayers)
 
         # draw 7 cards each
         for p in range(numplayers):
             players[p + 1].newHand(deck)
 
+        # play 1 card in each N,S,E,W
+        board.initfields()
+
         winner = None
         # everything is set, now loop on turns and give rules per turn
         while winner == None:
 
-            #go in turn order
+            # go in turn order
             for p in range(numplayers):
                 currentPlayer = players[p + 1]
 
-                rules.reshuffleBartok(board)
-                rules.printBoard(board, currentPlayer)
-
                 turnend = 0
+                self.prepareTurn(board, rules, currentPlayer)
                 while not turnend:
 
                     move = self.getMoveFromPlayer()
 
-                    if move == 'draw':
-                        turnend = rules.drawCardAndEndTurn(board, currentPlayer)
+                    if move == 'end':
+                        turnend = 1
                     elif move.startswith('play'):
-                        turnend = rules.tryToPlay(currentPlayer, board, move)
+                        rules.tryToPlay(currentPlayer, board, move)
+                    elif move.startswith('move'):
+                        rules.tryToMove(currentPlayer, move, board)
                     elif move.startswith('h'):
                         rules.printHelp()
                     else:
@@ -92,11 +83,16 @@ class Bartok:
                         break
 
                 if winner != None:
-                    print('Player %s has all 4 cards of the same rank, so he wins!' % winner)
                     break
 
-                input('\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNEXT PLAYER, PRESS ENTER WHEN READY\n')
+                input('\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNEXT PLAYER, PRESS ENTER WHEN READY\n')
 
         #this means the game has ended
         print('Congrats %s, you win~' % winner)
+
+
+
+
+
+
 

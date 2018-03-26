@@ -1,4 +1,5 @@
-import random
+from Card import Card
+from Rules import Rules
 
 class BartokRules(Rules):
 
@@ -31,7 +32,7 @@ class BartokRules(Rules):
     """
         Prompts the user for the suit to change the ace to before playing it on the pile
     """
-    def playWildAce(self, card, player, board):
+    def playWildAce(self, card, player, board, index):
         # prompt user for wild card suit choosing
         tempsuit = card.suit
         suitd = input(
@@ -64,23 +65,51 @@ class BartokRules(Rules):
     """
         Plays a card on the top of the pile
     """
-    def playNormalCard(self, card, player, board):
+    def playNormalCard(self, card, player, board, index):
         board.discard.append(board.top)
         board.top = card
         player.hand.remove(player.hand[index])
         player.cc = player.cc - 1
+        return 1
 
     """
         Plays the card at the given index of the player's hand to the top of the pile, if valid
     """
-    def play(self, player, index, field, name, board):
-        if checkHandSize(index, player) == 0:
+    def play(self, player, index, field, board):
+        if self.checkHandSize(index, player) == 0:
             return 0
         else:
             card = player.hand[index]
-            if isWildAce(card):
-                return playWildAce(card, player, board)
-            elif topCardMatch(card, board):
-                return playNormalCard(card, player, board)
+            if self.isWildAce(card):
+                return self.playWildAce(card, player, board, index)
+            elif self.topCardMatch(card, board):
+                return self.playNormalCard(card, player, board, index)
             print('Card played must be of the same rank or suit as face up on playing stack')
             return 0
+
+    """
+        in Bartok, ends your turn by drawing a card 
+    """
+    def drawCardAndEndTurn(self, board, player):
+        player.drawFromDeck(board.deck)
+        return 1
+
+    def tryToPlay(self, player, board, move):
+        try:
+            return self.play(player, int(move.split(" ")[1]), None, board)
+        except (IndexError, ValueError):
+            print('Invalid syntax. Type \'h\' for a list of moves')
+
+    def printHelp(self):
+        try:
+            print('\"draw\"\t\t\tto draw a card from the desk and end your turn;')
+            print('\"play card_index\"\tto play the card in your hand to destination field. Card index is after #;')
+        except (IndexError, ValueError):
+            print('Invalid syntax. Type \'h\' for a list of moves')
+
+    def determineIfPlayerHasWon(self, player):
+        winner = self.isWinnerByNoHand(player)
+        if winner != None:
+            return winner
+        if self.fourOfSameRank(player) == 1:
+            return player.name

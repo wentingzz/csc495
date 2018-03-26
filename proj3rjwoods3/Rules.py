@@ -13,7 +13,20 @@ class Rules():
         Plays a card from the player's hand to the board
         Different for each game
     """
-    def play(self, player, index, field, name, board):
+    def play(self, player, index, field, board):
+        pass
+
+    def tryToPlay(self, player, board, move):
+        pass
+
+    def printHelp(self):
+        pass
+
+    def isWinnerByNoHand(self, player):
+        if len(player.hand) == 0:
+            return player.name
+
+    def determineIfPlayerHasWon(self, player):
         pass
 
     """
@@ -39,7 +52,7 @@ class Rules():
     def printPlayerHandNumbers(self, numberPlayers, players):
         print('Number of Cards in Each Player\'s Hand:')
         for p in range(numberPlayers):
-            print(players[p].name + ': ' + str(len(players[p].hand)))
+            print(players[p + 1].name + ': ' + str(len(players[p + 1].hand)))
         print('')
 
     """
@@ -60,14 +73,23 @@ class Rules():
         Prints the instance of a player's turn; including the board, player hand counts, and the current player's hands
     """
     def printBoard(self, board, player):
-        printBoardSpace(board)
-        printPlayerHand(player)
-        printPlayerHandNumbers(board.numberPlayers, board.players)
+        self.printBoardSpace(board)
+        self.printPlayerHand(player)
+        self.printPlayerHandNumbers(board.numberPlayers, board.players)
+
+
+    """
+        Shuffles the given deck
+    """
+    def shuffle(self, deck):
+        random.shuffle(deck)
+
 
     """
         Creates a deck by creating all 52 cards then shuffling. Returns the deck.
     """
-    def createDeck(self, deck):
+    def createDeck(self):
+        deck = []
         for i in range(1, 14):
             deck.append(Card(i, 'Heart', 'Red'))
         for i in range(1, 14):
@@ -76,14 +98,9 @@ class Rules():
             deck.append(Card(i, 'Club', 'Black'))
         for i in range(1, 14):
             deck.append(Card(i, 'Spade', 'Black'))
-        shuffle(deck)
-        return len(deck)
+        self.shuffle(deck)
+        return deck
 
-    """
-        Shuffles the given deck
-    """
-    def shuffle(self, deck):
-        random.shuffle(deck)
 
     """
         If the given player has all 4 copies of a certain card rank, returns 1 so that they can be declared the winner
@@ -114,3 +131,9 @@ class Rules():
         board.discard = []
         resetAces(board.deck)
         return self.deck
+
+    def reshuffleBartok(self, board):
+
+        if len(board.deck) <= 0:
+            reshuffle(board)
+            print('\nReshuffling all cards under top card in field of play back into deck...\n')

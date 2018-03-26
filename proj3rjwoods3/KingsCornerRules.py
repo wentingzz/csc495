@@ -1,4 +1,6 @@
 import random
+from Rules import Rules
+from Card import Card
 
 class KingsCornerRules(Rules):
 
@@ -60,7 +62,7 @@ class KingsCornerRules(Rules):
         Returns 1 if the given card is a king
     """
     def cardIsKing(self, card):
-        return card == 13
+        return card.val == 13
 
     """
         Returns 1 if the destination field is empty
@@ -72,7 +74,7 @@ class KingsCornerRules(Rules):
         Returns 1 if the king stack move is considered valid
     """
     def isValidKingMove(self, sourceField, destinationField, board):
-        return destinationFieldIsCorner(destinationField) and cardIsKing(board.boardDic[sourceField].bot.val) and destinationFieldIsEmpty(board)
+        return self.destinationFieldIsCorner(destinationField) and self.cardIsKing(board.boardDic[sourceField].bot) and self.destinationFieldIsEmpty(board)
 
     """
         Returns 1 if the card colors of the given 2 cards alternate
@@ -84,14 +86,14 @@ class KingsCornerRules(Rules):
         Returns 1 if the card on top is 1 lower in rank than the card on bottom
     """
     def cardValuesDecrementByOne(self, cardOnTop, cardOnBottom):
-        return cardOnTop.val == cardOnBottom - 1
+        return cardOnTop.val == cardOnBottom.val - 1
 
     """
         Returns 1 if the stack (not a king) move is valid
     """
     def isValidCardMove(self, sourceField, destinationField, board):
-        return destinationFieldIsEmpty(board, destinationField) and cardColorsAlternate(board.boardDic[sourceField].bot, board.boardDic[
-            destinationField].top) and cardValuesDecrementByOne(board.boardDic[sourceField].bot, board.boardDic[destinationField].top)
+        return self.destinationFieldIsEmpty(board, destinationField) or (self.cardColorsAlternate(board.boardDic[sourceField].bot, board.boardDic[
+            destinationField].top) and self.cardValuesDecrementByOne(board.boardDic[sourceField].bot, board.boardDic[destinationField].top))
 
     """
         Moves the stack from the source field on top of the stack at the destination field
@@ -114,14 +116,14 @@ class KingsCornerRules(Rules):
     """
     def move(self, sourceField, destinationField, board):
         # check if src_field is empty
-        if sourceFieldIsEmpty(sourceField, board) == 0:
+        if self.sourceFieldIsEmpty(sourceField, board) == 0:
             return 0
         else:
             # move Ks to any corner(empty)
-            if isValidKingMove(sourceField, destinationField, board):
-                moveKingStack(sourceField, destinationField, board)
-            elif isValidCardMove(sourceField, destinationField, board):
-                moveStack(sourceField, destinationField, board)
+            if self.isValidKingMove(sourceField, destinationField, board):
+                self.moveKingStack(sourceField, destinationField, board)
+            elif self.isValidCardMove(sourceField, destinationField, board):
+                self.moveStack(sourceField, destinationField, board)
             else:
                 print(
                     '\nError: Specifed move is impossible, any card placed on top of another must be of opposite color and one lower in rank\n')
@@ -139,28 +141,58 @@ class KingsCornerRules(Rules):
     """
         Plays the card from the player's hand to the board at the field specified by the player
     """
-    def play(self, player, index, field, name, board):
-        if checkHandSize(index, player) == 0:
+    def play(self, player, index, field, fieldName, board):
+        if self.checkHandSize(index, player) == 0:
             return 0
         card = player.hand[index]
 
-        if destinationFieldIsEmpty(board, field): #field is empty
-            if destinationFieldIsCorner(field): #field is in the corner
-                if cardIsKing(card):
-                    playCardOnEmptyField(field, card, player)
+        if self.destinationFieldIsEmpty(board, fieldName): #field is empty
+            if self.destinationFieldIsCorner(fieldName): #field is in the corner
+                if self.cardIsKing(card):
+                    self.playCardOnEmptyField(field, card, player)
                 else:
                     print('\nError: Specifed play is impossible, only Kings can be played on an empty corner, hence the name of the game...\n')
                     return 0
-            elif not cardIsKing(card): #not in the corner
-                playCardOnEmptyField(field, card, player)
+            elif not self.cardIsKing(card): #not in the corner
+                self.playCardOnEmptyField(field, card, player)
             else:
                 print('\nError: Specifed play is impossible, a king can only be played in the corner, hence the name of the game...\n')
                 return 0
         else: #field is not empty, check the color and number
-            if cardColorsAlternate(field.top.color, card.color) and cardValuesDecrementByOne(card.val, field.top.val):
-                playCardOnField(field, card, player)
+            if self.cardColorsAlternate(field.top, card) and self.cardValuesDecrementByOne(card, field.top):
+                self.playCardOnField(field, card, player)
             else:
                 print('\nError: Specifed play is impossible, any card placed on top of another must be of opposite color and one lower in rank\n')
                 return 0
         # no errors
         return 1
+
+    def tryToPlay(self, player, board, move):
+        try:
+            move = move.replace(' ', '').split(':')[1]
+            stack = board.boardDic[move.split(",")[1]]
+            doprint = self.play(player, int(move.split(",")[0]), stack, move.split(",")[1], board)
+            if doprint == 1:
+                self.printBoard(board, player)
+        except (IndexError, KeyError):
+            print('Invalid syntax. Type \'h\' for a list of moves')
+
+    def tryToMove(self, player, move, board):
+        try:
+            move = move.replace(' ', '').split(':')[1]
+            doprint = self.move(move.split(",")[0], move.split(",")[1], board)
+            if doprint == 1:
+                self.printBoard(board, player)
+        except (IndexError, KeyError):
+            print('Invalid syntax. Type \'h\' for a list of moves')
+
+    def printHelp(self):
+        try:
+            print('\"end\" \t\t\t\t\t\tto end your turn;')
+            print('\"play: card_index, destination field\" \t\tto play the card in your hand to destination field. Card index is after #;')
+            print('\"move: source field, destination field\"\t\tto move cards from source field to destination field.')
+        except IndexError:
+            print('Invalid syntax. Type \'h\' for a list of moves')
+
+    def determineIfPlayerHasWon(self, player):
+        return self.isWinnerByNoHand(player)

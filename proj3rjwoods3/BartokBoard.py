@@ -1,3 +1,5 @@
+from Board import Board
+
 class BartokBoard(Board):
 
     """
