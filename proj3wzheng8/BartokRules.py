@@ -35,8 +35,13 @@ class BartokRules(Rules):
     def playWildAce(self, card, player, board, index):
         # prompt user for wild card suit choosing
         tempsuit = card.suit
-        suitd = input(
-            'Please enter the first letter of the suit you wish for this Ace to represent (s, h, d, or c): ').lower()
+        if player.name != "AI":
+            suitd = input(
+                'Please enter the first letter of the suit you wish for this Ace to represent (s, h, d, or c): ').lower()
+        else:
+            suitd = player.hand[0].suit[0].lower()
+            print('Please enter the first letter of the suit you wish for this Ace to represent (s, h, d, or c): ' + suitd)
+
         if suitd == 's':
             card = Card(1, 'Spade', 'Blank')
         elif suitd == 'd':

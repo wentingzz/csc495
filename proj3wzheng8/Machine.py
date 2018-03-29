@@ -1,7 +1,4 @@
 import sys, select
-sys.dont_write_bytecode = True
-
-from lib import shuffle,Pretty,o,rseed,between
 
 class State():
   def __init__(self, name, ruleName):
@@ -48,7 +45,7 @@ class Machine:
     move = move.lower()
 
     return move
-  def run(self):
+  def run(self): ### AI doesn't know what to do if the card is A
     winner = None
     while winner == None:
       # go in turn order
@@ -61,7 +58,7 @@ class Machine:
         turnend = 0
         while not turnend:
           #a player's turn
-          move = self.getMoveFromPlayer()
+          move = currentPlayer.nextstep(self.board)
           try:
             self.currentState = self.states[move[:4]]
             turnend = self.currentState.execute(currentPlayer, self.board, move)

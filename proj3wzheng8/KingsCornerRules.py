@@ -106,8 +106,9 @@ class KingsCornerRules(Rules):
         Moves the (king) stack from the source field on top of the stack at the destination field
     """
     def moveKingStack(self, sourceField, destinationField, board):
-        self.moveStack(sourceField, destinationField, board)
+        board.boardDic[destinationField].top = board.boardDic[sourceField].top
         board.boardDic[destinationField].bot = board.boardDic[sourceField].bot
+        board.boardDic[sourceField].top = board.boardDic[sourceField].bot = Card(0, 'empty', 'empty')
 
     """
         Moves the stack from the source field on top of the stack at the destination field if the move is valid

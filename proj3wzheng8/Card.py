@@ -36,3 +36,12 @@ class Card():
 
     def isWild(self):
         return self.valSym == 'A'
+
+    def sameSuit(self, card):
+        return self.suit == card.suit
+
+    def sameNumber(self, card):
+        return self.val == card.val
+
+    def diffColor(self, card):
+        return self.color != card.color
