@@ -34,7 +34,7 @@ class Machine:
     self.states.update({"newTurn": BartokStartState("NewTurn", [self.rules.reshuffleBartok, self.rules.printBoard])})
 
   def Kstart(self):
-    self.states.update({"newTurn": BartokStartState("NewTurn", [self.rules.reshuffleBartok, self.rules.printBoard])})
+    self.states.update({"newTurn": KingStartState("NewTurn", [self.rules.reshuffleBartok, self.rules.printBoard])})
 
   def addState(self, input, stateName, rule):
     self.states.update({input : State(stateName, rule)})

@@ -31,11 +31,14 @@ class Player():
 class BartokAIPlayer(Player):
 
     def nextstep(self, board):
+        print ("What will you do? (h for help): ")
         index = self.validIndexToPlay(board)
         if index == -1:
-            return 'draw'
+            action = 'draw'
         else:
-            return 'play ' + str(index)
+            action = 'play ' + str(index)
+        print(action)
+        return action
 
     def validIndexToPlay(self, board):
         for i in range(len(self.hand)):
@@ -45,15 +48,18 @@ class BartokAIPlayer(Player):
 
 class KingsAIPlayer(Player):
     def nextstep(self, board):
+        print ("What will you do? (h for help): ")
         action = self.validPlay(board)
         if action[0] == -1:                 #cannot play any card on hand
             action = self.validMove(board)  #try to move card on board
             if action[0] == -1:             #no valid move
-                return 'end'                #end the turn
+                action = 'end'              #end the turn
             else:                           #valid move
-                return 'move: ' + action[0] + ', ' + action[1]
+                action = 'move: ' + action[0] + ', ' + action[1]
         else:                               #valid play
-            return 'play: ' + str(action[0]) + ', ' + action[1]
+            action = 'play: ' + str(action[0]) + ', ' + action[1]
+        print(action)
+        return action
 
     def validPlay(self, board):
         #play K to the corner (get all the empty fields -> play K)
