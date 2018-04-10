@@ -1,0 +1,1053 @@
+C:\Users\frogd\PycharmProjects\Temp\venv\Scripts\python.exe C:/Users/frogd/Desktop/proj3/Game.py
+Start
+Which game would you like to play?
+0 - Bartok
+1 - Kings Corner
+> 0
+You chose Bartok
+How many players? (1-4): 1
+Name of player 1?: greg
+*---------------------------*                           *---------------------------*
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|           DECK            |                           |          PLAYED           |
+|          37 CARDS         |                           |         K of Spades       |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+*---------------------------*                           *---------------------------*
+Player's (greg) Hand (7 Cards):
+(#0 - 8 of Diamonds), (#1 - 6 of Clubs), (#2 - 8 of Clubs), (#3 - K of Hearts), (#4 - K of Diamonds), (#5 - 5 of Diamonds), (#6 - A of Diamonds)
+
+Number of Cards in Each Player's Hand:
+greg: 7
+AI: 7
+
+What will you do? (h for help): play 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NEXT PLAYER, PRESS ENTER WHEN READY
+
+*---------------------------*                           *---------------------------*
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|           DECK            |                           |          PLAYED           |
+|          37 CARDS         |                           |         K of Hearts       |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+*---------------------------*                           *---------------------------*
+Player's (AI) Hand (7 Cards):
+(#0 - A of Spades), (#1 - 7 of Diamonds), (#2 - 2 of Clubs), (#3 - 3 of Spades), (#4 - 8 of Spades), (#5 - 7 of Clubs), (#6 - 6 of Spades)
+
+Number of Cards in Each Player's Hand:
+greg: 6
+AI: 7
+
+What will you do? (h for help): 
+draw
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NEXT PLAYER, PRESS ENTER WHEN READY
+
+*---------------------------*                           *---------------------------*
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|           DECK            |                           |          PLAYED           |
+|          36 CARDS         |                           |         K of Hearts       |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+*---------------------------*                           *---------------------------*
+Player's (greg) Hand (6 Cards):
+(#0 - 8 of Diamonds), (#1 - 6 of Clubs), (#2 - 8 of Clubs), (#3 - K of Diamonds), (#4 - 5 of Diamonds), (#5 - A of Diamonds)
+
+Number of Cards in Each Player's Hand:
+greg: 6
+AI: 8
+
+What will you do? (h for help): play 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NEXT PLAYER, PRESS ENTER WHEN READY
+
+*---------------------------*                           *---------------------------*
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|           DECK            |                           |          PLAYED           |
+|          36 CARDS         |                           |       K of Diamonds       |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+*---------------------------*                           *---------------------------*
+Player's (AI) Hand (8 Cards):
+(#0 - A of Spades), (#1 - 7 of Diamonds), (#2 - 2 of Clubs), (#3 - 3 of Spades), (#4 - 8 of Spades), (#5 - 7 of Clubs), (#6 - 6 of Spades), (#7 - 10 of Hearts)
+
+Number of Cards in Each Player's Hand:
+greg: 5
+AI: 8
+
+What will you do? (h for help): 
+play 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NEXT PLAYER, PRESS ENTER WHEN READY
+
+*---------------------------*                           *---------------------------*
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|           DECK            |                           |          PLAYED           |
+|          36 CARDS         |                           |       7 of Diamonds       |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+*---------------------------*                           *---------------------------*
+Player's (greg) Hand (5 Cards):
+(#0 - 8 of Diamonds), (#1 - 6 of Clubs), (#2 - 8 of Clubs), (#3 - 5 of Diamonds), (#4 - A of Diamonds)
+
+Number of Cards in Each Player's Hand:
+greg: 5
+AI: 7
+
+What will you do? (h for help): play 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NEXT PLAYER, PRESS ENTER WHEN READY
+
+*---------------------------*                           *---------------------------*
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|           DECK            |                           |          PLAYED           |
+|          36 CARDS         |                           |       5 of Diamonds       |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+*---------------------------*                           *---------------------------*
+Player's (AI) Hand (7 Cards):
+(#0 - A of Spades), (#1 - 2 of Clubs), (#2 - 3 of Spades), (#3 - 8 of Spades), (#4 - 7 of Clubs), (#5 - 6 of Spades), (#6 - 10 of Hearts)
+
+Number of Cards in Each Player's Hand:
+greg: 4
+AI: 7
+
+What will you do? (h for help): 
+draw
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NEXT PLAYER, PRESS ENTER WHEN READY
+
+*---------------------------*                           *---------------------------*
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|           DECK            |                           |          PLAYED           |
+|          35 CARDS         |                           |       5 of Diamonds       |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+*---------------------------*                           *---------------------------*
+Player's (greg) Hand (4 Cards):
+(#0 - 8 of Diamonds), (#1 - 6 of Clubs), (#2 - 8 of Clubs), (#3 - A of Diamonds)
+
+Number of Cards in Each Player's Hand:
+greg: 4
+AI: 8
+
+What will you do? (h for help): play 3
+Please enter the first letter of the suit you wish for this Ace to represent (s, h, d, or c): 
+Invalid option, please try playing the card again
+What will you do? (h for help): play 3
+Please enter the first letter of the suit you wish for this Ace to represent (s, h, d, or c): c
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NEXT PLAYER, PRESS ENTER WHEN READY
+
+*---------------------------*                           *---------------------------*
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|           DECK            |                           |          PLAYED           |
+|          35 CARDS         |                           |          A of Clubs       |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+*---------------------------*                           *---------------------------*
+Player's (AI) Hand (8 Cards):
+(#0 - A of Spades), (#1 - 2 of Clubs), (#2 - 3 of Spades), (#3 - 8 of Spades), (#4 - 7 of Clubs), (#5 - 6 of Spades), (#6 - 10 of Hearts), (#7 - 6 of Diamonds)
+
+Number of Cards in Each Player's Hand:
+greg: 3
+AI: 8
+
+What will you do? (h for help): 
+play 0
+Please enter the first letter of the suit you wish for this Ace to represent (s, h, d, or c): s
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NEXT PLAYER, PRESS ENTER WHEN READY
+
+*---------------------------*                           *---------------------------*
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|           DECK            |                           |          PLAYED           |
+|          35 CARDS         |                           |         A of Spades       |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+*---------------------------*                           *---------------------------*
+Player's (greg) Hand (3 Cards):
+(#0 - 8 of Diamonds), (#1 - 6 of Clubs), (#2 - 8 of Clubs)
+
+Number of Cards in Each Player's Hand:
+greg: 3
+AI: 7
+
+What will you do? (h for help): draw
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NEXT PLAYER, PRESS ENTER WHEN READY
+
+*---------------------------*                           *---------------------------*
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|           DECK            |                           |          PLAYED           |
+|          34 CARDS         |                           |         A of Spades       |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+*---------------------------*                           *---------------------------*
+Player's (AI) Hand (7 Cards):
+(#0 - 2 of Clubs), (#1 - 3 of Spades), (#2 - 8 of Spades), (#3 - 7 of Clubs), (#4 - 6 of Spades), (#5 - 10 of Hearts), (#6 - 6 of Diamonds)
+
+Number of Cards in Each Player's Hand:
+greg: 4
+AI: 7
+
+What will you do? (h for help): 
+play 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NEXT PLAYER, PRESS ENTER WHEN READY
+
+*---------------------------*                           *---------------------------*
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|           DECK            |                           |          PLAYED           |
+|          34 CARDS         |                           |         3 of Spades       |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+*---------------------------*                           *---------------------------*
+Player's (greg) Hand (4 Cards):
+(#0 - 8 of Diamonds), (#1 - 6 of Clubs), (#2 - 8 of Clubs), (#3 - 2 of Spades)
+
+Number of Cards in Each Player's Hand:
+greg: 4
+AI: 6
+
+What will you do? (h for help): play 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NEXT PLAYER, PRESS ENTER WHEN READY
+
+*---------------------------*                           *---------------------------*
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|           DECK            |                           |          PLAYED           |
+|          34 CARDS         |                           |         2 of Spades       |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+*---------------------------*                           *---------------------------*
+Player's (AI) Hand (6 Cards):
+(#0 - 2 of Clubs), (#1 - 8 of Spades), (#2 - 7 of Clubs), (#3 - 6 of Spades), (#4 - 10 of Hearts), (#5 - 6 of Diamonds)
+
+Number of Cards in Each Player's Hand:
+greg: 3
+AI: 6
+
+What will you do? (h for help): 
+play 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NEXT PLAYER, PRESS ENTER WHEN READY
+
+*---------------------------*                           *---------------------------*
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|           DECK            |                           |          PLAYED           |
+|          34 CARDS         |                           |          2 of Clubs       |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+*---------------------------*                           *---------------------------*
+Player's (greg) Hand (3 Cards):
+(#0 - 8 of Diamonds), (#1 - 6 of Clubs), (#2 - 8 of Clubs)
+
+Number of Cards in Each Player's Hand:
+greg: 3
+AI: 5
+
+What will you do? (h for help): play 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NEXT PLAYER, PRESS ENTER WHEN READY
+
+*---------------------------*                           *---------------------------*
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|           DECK            |                           |          PLAYED           |
+|          34 CARDS         |                           |          8 of Clubs       |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+*---------------------------*                           *---------------------------*
+Player's (AI) Hand (5 Cards):
+(#0 - 8 of Spades), (#1 - 7 of Clubs), (#2 - 6 of Spades), (#3 - 10 of Hearts), (#4 - 6 of Diamonds)
+
+Number of Cards in Each Player's Hand:
+greg: 2
+AI: 5
+
+What will you do? (h for help): 
+play 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NEXT PLAYER, PRESS ENTER WHEN READY
+
+*---------------------------*                           *---------------------------*
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|           DECK            |                           |          PLAYED           |
+|          34 CARDS         |                           |         8 of Spades       |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+*---------------------------*                           *---------------------------*
+Player's (greg) Hand (2 Cards):
+(#0 - 8 of Diamonds), (#1 - 6 of Clubs)
+
+Number of Cards in Each Player's Hand:
+greg: 2
+AI: 4
+
+What will you do? (h for help): play 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NEXT PLAYER, PRESS ENTER WHEN READY
+
+*---------------------------*                           *---------------------------*
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|           DECK            |                           |          PLAYED           |
+|          34 CARDS         |                           |       8 of Diamonds       |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+*---------------------------*                           *---------------------------*
+Player's (AI) Hand (4 Cards):
+(#0 - 7 of Clubs), (#1 - 6 of Spades), (#2 - 10 of Hearts), (#3 - 6 of Diamonds)
+
+Number of Cards in Each Player's Hand:
+greg: 1
+AI: 4
+
+What will you do? (h for help): 
+play 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NEXT PLAYER, PRESS ENTER WHEN READY
+
+*---------------------------*                           *---------------------------*
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|           DECK            |                           |          PLAYED           |
+|          34 CARDS         |                           |       6 of Diamonds       |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+|                           |                           |                           |
+*---------------------------*                           *---------------------------*
+Player's (greg) Hand (1 Cards):
+(#0 - 6 of Clubs)
+
+Number of Cards in Each Player's Hand:
+greg: 1
+AI: 3
+
+What will you do? (h for help): play 0
+Congrats greg, you win~
+
+Process finished with exit code 0

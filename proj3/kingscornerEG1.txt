@@ -1,0 +1,3582 @@
+C:\Users\frogd\PycharmProjects\Temp\venv\Scripts\python.exe C:/Users/frogd/Desktop/proj3/Game.py
+Start
+Which game would you like to play?
+0 - Bartok
+1 - Kings Corner
+> 1
+You chose Kings Corner
+How many players? (1-4): 1
+Name of player 1?: greg
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:     10 of Hearts     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom:  10 of Hearts     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:    6 of Diamonds     |                           | Top:      3 of Spades     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          33 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom: 6 of Diamonds     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:       6 of Clubs     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom:    6 of Clubs     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (greg) Hand (8 Cards):
+(#0 - J of Clubs), (#1 - 8 of Spades), (#2 - A of Diamonds), (#3 - 3 of Hearts), (#4 - 2 of Hearts), (#5 - 6 of Spades), (#6 - J of Spades), (#7 - 5 of Spades)
+
+Number of Cards in Each Player's Hand:
+greg: 8
+AI: 7
+
+What will you do? (h for help): 
+play: 4, e
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:     10 of Hearts     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom:  10 of Hearts     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:    6 of Diamonds     |                           | Top:      2 of Hearts     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          33 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom: 6 of Diamonds     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:       6 of Clubs     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom:    6 of Clubs     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (greg) Hand (7 Cards):
+(#0 - J of Clubs), (#1 - 8 of Spades), (#2 - A of Diamonds), (#3 - 3 of Hearts), (#4 - 6 of Spades), (#5 - J of Spades), (#6 - 5 of Spades)
+
+Number of Cards in Each Player's Hand:
+greg: 7
+AI: 7
+
+What will you do? (h for help): 
+play: 6, w
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:     10 of Hearts     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom:  10 of Hearts     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:      5 of Spades     |                           | Top:      2 of Hearts     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          33 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom: 6 of Diamonds     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:       6 of Clubs     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom:    6 of Clubs     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (greg) Hand (6 Cards):
+(#0 - J of Clubs), (#1 - 8 of Spades), (#2 - A of Diamonds), (#3 - 3 of Hearts), (#4 - 6 of Spades), (#5 - J of Spades)
+
+Number of Cards in Each Player's Hand:
+greg: 6
+AI: 7
+
+What will you do? (h for help): 
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NEXT PLAYER, PRESS ENTER WHEN READY
+
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:     10 of Hearts     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom:  10 of Hearts     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:      5 of Spades     |                           | Top:      2 of Hearts     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          32 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom: 6 of Diamonds     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:       6 of Clubs     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom:    6 of Clubs     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (AI) Hand (8 Cards):
+(#0 - 8 of Clubs), (#1 - 9 of Clubs), (#2 - 3 of Diamonds), (#3 - 5 of Clubs), (#4 - Q of Hearts), (#5 - Q of Spades), (#6 - 9 of Spades), (#7 - 3 of Clubs)
+
+Number of Cards in Each Player's Hand:
+greg: 6
+AI: 8
+
+What will you do? (h for help): 
+play: 1, n
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:       9 of Clubs     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom:  10 of Hearts     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:      5 of Spades     |                           | Top:      2 of Hearts     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          32 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom: 6 of Diamonds     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:       6 of Clubs     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom:    6 of Clubs     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (AI) Hand (7 Cards):
+(#0 - 8 of Clubs), (#1 - 3 of Diamonds), (#2 - 5 of Clubs), (#3 - Q of Hearts), (#4 - Q of Spades), (#5 - 9 of Spades), (#6 - 3 of Clubs)
+
+Number of Cards in Each Player's Hand:
+greg: 6
+AI: 7
+
+What will you do? (h for help): 
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NEXT PLAYER, PRESS ENTER WHEN READY
+
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:       9 of Clubs     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom:  10 of Hearts     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:      5 of Spades     |                           | Top:      2 of Hearts     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          31 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom: 6 of Diamonds     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:       6 of Clubs     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom:    6 of Clubs     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (greg) Hand (7 Cards):
+(#0 - J of Clubs), (#1 - 8 of Spades), (#2 - A of Diamonds), (#3 - 3 of Hearts), (#4 - 6 of Spades), (#5 - J of Spades), (#6 - 9 of Diamonds)
+
+Number of Cards in Each Player's Hand:
+greg: 7
+AI: 7
+
+What will you do? (h for help): 
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NEXT PLAYER, PRESS ENTER WHEN READY
+
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:       9 of Clubs     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom:  10 of Hearts     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:      5 of Spades     |                           | Top:      2 of Hearts     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          30 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom: 6 of Diamonds     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:       6 of Clubs     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom:    6 of Clubs     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (AI) Hand (8 Cards):
+(#0 - 8 of Clubs), (#1 - 3 of Diamonds), (#2 - 5 of Clubs), (#3 - Q of Hearts), (#4 - Q of Spades), (#5 - 9 of Spades), (#6 - 3 of Clubs), (#7 - 10 of Clubs)
+
+Number of Cards in Each Player's Hand:
+greg: 7
+AI: 8
+
+What will you do? (h for help): 
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NEXT PLAYER, PRESS ENTER WHEN READY
+
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:       9 of Clubs     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom:  10 of Hearts     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:      5 of Spades     |                           | Top:      2 of Hearts     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          29 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom: 6 of Diamonds     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:       6 of Clubs     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom:    6 of Clubs     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (greg) Hand (8 Cards):
+(#0 - J of Clubs), (#1 - 8 of Spades), (#2 - A of Diamonds), (#3 - 3 of Hearts), (#4 - 6 of Spades), (#5 - J of Spades), (#6 - 9 of Diamonds), (#7 - K of Clubs)
+
+Number of Cards in Each Player's Hand:
+greg: 8
+AI: 8
+
+What will you do? (h for help): 
+play: 7, c1
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       K of Clubs     | Top:       9 of Clubs     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:  10 of Hearts     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:      5 of Spades     |                           | Top:      2 of Hearts     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          29 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom: 6 of Diamonds     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:       6 of Clubs     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom:    6 of Clubs     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (greg) Hand (7 Cards):
+(#0 - J of Clubs), (#1 - 8 of Spades), (#2 - A of Diamonds), (#3 - 3 of Hearts), (#4 - 6 of Spades), (#5 - J of Spades), (#6 - 9 of Diamonds)
+
+Number of Cards in Each Player's Hand:
+greg: 7
+AI: 8
+
+What will you do? (h for help): 
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NEXT PLAYER, PRESS ENTER WHEN READY
+
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       K of Clubs     | Top:       9 of Clubs     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:  10 of Hearts     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:      5 of Spades     |                           | Top:      2 of Hearts     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          28 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom: 6 of Diamonds     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:       6 of Clubs     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom:    6 of Clubs     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (AI) Hand (9 Cards):
+(#0 - 8 of Clubs), (#1 - 3 of Diamonds), (#2 - 5 of Clubs), (#3 - Q of Hearts), (#4 - Q of Spades), (#5 - 9 of Spades), (#6 - 3 of Clubs), (#7 - 10 of Clubs), (#8 - 2 of Diamonds)
+
+Number of Cards in Each Player's Hand:
+greg: 7
+AI: 9
+
+What will you do? (h for help): 
+play: 3, c1
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:      Q of Hearts     | Top:       9 of Clubs     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:  10 of Hearts     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:      5 of Spades     |                           | Top:      2 of Hearts     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          28 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom: 6 of Diamonds     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:       6 of Clubs     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom:    6 of Clubs     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (AI) Hand (8 Cards):
+(#0 - 8 of Clubs), (#1 - 3 of Diamonds), (#2 - 5 of Clubs), (#3 - Q of Spades), (#4 - 9 of Spades), (#5 - 3 of Clubs), (#6 - 10 of Clubs), (#7 - 2 of Diamonds)
+
+Number of Cards in Each Player's Hand:
+greg: 7
+AI: 8
+
+What will you do? (h for help): 
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NEXT PLAYER, PRESS ENTER WHEN READY
+
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:      Q of Hearts     | Top:       9 of Clubs     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:  10 of Hearts     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:      5 of Spades     |                           | Top:      2 of Hearts     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          27 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom: 6 of Diamonds     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:       6 of Clubs     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom:    6 of Clubs     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (greg) Hand (8 Cards):
+(#0 - J of Clubs), (#1 - 8 of Spades), (#2 - A of Diamonds), (#3 - 3 of Hearts), (#4 - 6 of Spades), (#5 - J of Spades), (#6 - 9 of Diamonds), (#7 - J of Diamonds)
+
+Number of Cards in Each Player's Hand:
+greg: 8
+AI: 8
+
+What will you do? (h for help): 
+play: 0, c1
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       J of Clubs     | Top:       9 of Clubs     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:  10 of Hearts     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:      5 of Spades     |                           | Top:      2 of Hearts     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          27 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom: 6 of Diamonds     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:       6 of Clubs     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom:    6 of Clubs     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (greg) Hand (7 Cards):
+(#0 - 8 of Spades), (#1 - A of Diamonds), (#2 - 3 of Hearts), (#3 - 6 of Spades), (#4 - J of Spades), (#5 - 9 of Diamonds), (#6 - J of Diamonds)
+
+Number of Cards in Each Player's Hand:
+greg: 7
+AI: 8
+
+What will you do? (h for help): 
+move: n, c1
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       9 of Clubs     | Top:             NONE     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:          NONE     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:      5 of Spades     |                           | Top:      2 of Hearts     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          27 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom: 6 of Diamonds     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:       6 of Clubs     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom:    6 of Clubs     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (greg) Hand (7 Cards):
+(#0 - 8 of Spades), (#1 - A of Diamonds), (#2 - 3 of Hearts), (#3 - 6 of Spades), (#4 - J of Spades), (#5 - 9 of Diamonds), (#6 - J of Diamonds)
+
+Number of Cards in Each Player's Hand:
+greg: 7
+AI: 8
+
+What will you do? (h for help): 
+play: 0, n
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       9 of Clubs     | Top:      8 of Spades     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:   8 of Spades     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:      5 of Spades     |                           | Top:      2 of Hearts     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          27 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom: 6 of Diamonds     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:       6 of Clubs     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom:    6 of Clubs     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (greg) Hand (6 Cards):
+(#0 - A of Diamonds), (#1 - 3 of Hearts), (#2 - 6 of Spades), (#3 - J of Spades), (#4 - 9 of Diamonds), (#5 - J of Diamonds)
+
+Number of Cards in Each Player's Hand:
+greg: 6
+AI: 8
+
+What will you do? (h for help): 
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NEXT PLAYER, PRESS ENTER WHEN READY
+
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       9 of Clubs     | Top:      8 of Spades     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:   8 of Spades     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:      5 of Spades     |                           | Top:      2 of Hearts     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          26 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom: 6 of Diamonds     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:       6 of Clubs     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom:    6 of Clubs     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (AI) Hand (9 Cards):
+(#0 - 8 of Clubs), (#1 - 3 of Diamonds), (#2 - 5 of Clubs), (#3 - Q of Spades), (#4 - 9 of Spades), (#5 - 3 of Clubs), (#6 - 10 of Clubs), (#7 - 2 of Diamonds), (#8 - 7 of Spades)
+
+Number of Cards in Each Player's Hand:
+greg: 6
+AI: 9
+
+What will you do? (h for help): 
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NEXT PLAYER, PRESS ENTER WHEN READY
+
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       9 of Clubs     | Top:      8 of Spades     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:   8 of Spades     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:      5 of Spades     |                           | Top:      2 of Hearts     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          25 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom: 6 of Diamonds     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:       6 of Clubs     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom:    6 of Clubs     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (greg) Hand (7 Cards):
+(#0 - A of Diamonds), (#1 - 3 of Hearts), (#2 - 6 of Spades), (#3 - J of Spades), (#4 - 9 of Diamonds), (#5 - J of Diamonds), (#6 - A of Spades)
+
+Number of Cards in Each Player's Hand:
+greg: 7
+AI: 9
+
+What will you do? (h for help): 
+play: 6, e
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       9 of Clubs     | Top:      8 of Spades     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:   8 of Spades     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:      5 of Spades     |                           | Top:      A of Spades     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          25 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom: 6 of Diamonds     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:       6 of Clubs     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom:    6 of Clubs     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (greg) Hand (6 Cards):
+(#0 - A of Diamonds), (#1 - 3 of Hearts), (#2 - 6 of Spades), (#3 - J of Spades), (#4 - 9 of Diamonds), (#5 - J of Diamonds)
+
+Number of Cards in Each Player's Hand:
+greg: 6
+AI: 9
+
+What will you do? (h for help): 
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NEXT PLAYER, PRESS ENTER WHEN READY
+
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       9 of Clubs     | Top:      8 of Spades     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:   8 of Spades     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:      5 of Spades     |                           | Top:      A of Spades     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          24 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom: 6 of Diamonds     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:       6 of Clubs     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom:    6 of Clubs     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (AI) Hand (10 Cards):
+(#0 - 8 of Clubs), (#1 - 3 of Diamonds), (#2 - 5 of Clubs), (#3 - Q of Spades), (#4 - 9 of Spades), (#5 - 3 of Clubs), (#6 - 10 of Clubs), (#7 - 2 of Diamonds), (#8 - 7 of Spades), (#9 - Q of Diamonds)
+
+Number of Cards in Each Player's Hand:
+greg: 6
+AI: 10
+
+What will you do? (h for help): 
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NEXT PLAYER, PRESS ENTER WHEN READY
+
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       9 of Clubs     | Top:      8 of Spades     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:   8 of Spades     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:      5 of Spades     |                           | Top:      A of Spades     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          23 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom: 6 of Diamonds     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:       6 of Clubs     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom:    6 of Clubs     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (greg) Hand (7 Cards):
+(#0 - A of Diamonds), (#1 - 3 of Hearts), (#2 - 6 of Spades), (#3 - J of Spades), (#4 - 9 of Diamonds), (#5 - J of Diamonds), (#6 - 7 of Diamonds)
+
+Number of Cards in Each Player's Hand:
+greg: 7
+AI: 10
+
+What will you do? (h for help): 
+play: 6, n
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       9 of Clubs     | Top:    7 of Diamonds     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:   8 of Spades     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:      5 of Spades     |                           | Top:      A of Spades     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          23 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom: 6 of Diamonds     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:       6 of Clubs     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom:    6 of Clubs     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (greg) Hand (6 Cards):
+(#0 - A of Diamonds), (#1 - 3 of Hearts), (#2 - 6 of Spades), (#3 - J of Spades), (#4 - 9 of Diamonds), (#5 - J of Diamonds)
+
+Number of Cards in Each Player's Hand:
+greg: 6
+AI: 10
+
+What will you do? (h for help): 
+play: 2, n
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       9 of Clubs     | Top:      6 of Spades     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:   8 of Spades     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:      5 of Spades     |                           | Top:      A of Spades     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          23 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom: 6 of Diamonds     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:       6 of Clubs     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom:    6 of Clubs     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (greg) Hand (5 Cards):
+(#0 - A of Diamonds), (#1 - 3 of Hearts), (#2 - J of Spades), (#3 - 9 of Diamonds), (#4 - J of Diamonds)
+
+Number of Cards in Each Player's Hand:
+greg: 5
+AI: 10
+
+What will you do? (h for help): 
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NEXT PLAYER, PRESS ENTER WHEN READY
+
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       9 of Clubs     | Top:      6 of Spades     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:   8 of Spades     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:      5 of Spades     |                           | Top:      A of Spades     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          22 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom: 6 of Diamonds     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:       6 of Clubs     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom:    6 of Clubs     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (AI) Hand (11 Cards):
+(#0 - 8 of Clubs), (#1 - 3 of Diamonds), (#2 - 5 of Clubs), (#3 - Q of Spades), (#4 - 9 of Spades), (#5 - 3 of Clubs), (#6 - 10 of Clubs), (#7 - 2 of Diamonds), (#8 - 7 of Spades), (#9 - Q of Diamonds), (#10 - 7 of Hearts)
+
+Number of Cards in Each Player's Hand:
+greg: 5
+AI: 11
+
+What will you do? (h for help): 
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NEXT PLAYER, PRESS ENTER WHEN READY
+
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       9 of Clubs     | Top:      6 of Spades     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:   8 of Spades     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:      5 of Spades     |                           | Top:      A of Spades     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          21 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom: 6 of Diamonds     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:       6 of Clubs     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom:    6 of Clubs     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (greg) Hand (6 Cards):
+(#0 - A of Diamonds), (#1 - 3 of Hearts), (#2 - J of Spades), (#3 - 9 of Diamonds), (#4 - J of Diamonds), (#5 - J of Hearts)
+
+Number of Cards in Each Player's Hand:
+greg: 6
+AI: 11
+
+What will you do? (h for help): 
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NEXT PLAYER, PRESS ENTER WHEN READY
+
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       9 of Clubs     | Top:      6 of Spades     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:   8 of Spades     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:      5 of Spades     |                           | Top:      A of Spades     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          20 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom: 6 of Diamonds     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:       6 of Clubs     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom:    6 of Clubs     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (AI) Hand (12 Cards):
+(#0 - 8 of Clubs), (#1 - 3 of Diamonds), (#2 - 5 of Clubs), (#3 - Q of Spades), (#4 - 9 of Spades), (#5 - 3 of Clubs), (#6 - 10 of Clubs), (#7 - 2 of Diamonds), (#8 - 7 of Spades), (#9 - Q of Diamonds), (#10 - 7 of Hearts), (#11 - 4 of Diamonds)
+
+Number of Cards in Each Player's Hand:
+greg: 6
+AI: 12
+
+What will you do? (h for help): 
+play: 11, w
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       9 of Clubs     | Top:      6 of Spades     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:   8 of Spades     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:    4 of Diamonds     |                           | Top:      A of Spades     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          20 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom: 6 of Diamonds     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:       6 of Clubs     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom:    6 of Clubs     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (AI) Hand (11 Cards):
+(#0 - 8 of Clubs), (#1 - 3 of Diamonds), (#2 - 5 of Clubs), (#3 - Q of Spades), (#4 - 9 of Spades), (#5 - 3 of Clubs), (#6 - 10 of Clubs), (#7 - 2 of Diamonds), (#8 - 7 of Spades), (#9 - Q of Diamonds), (#10 - 7 of Hearts)
+
+Number of Cards in Each Player's Hand:
+greg: 6
+AI: 11
+
+What will you do? (h for help): 
+play: 5, w
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       9 of Clubs     | Top:      6 of Spades     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:   8 of Spades     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       3 of Clubs     |                           | Top:      A of Spades     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          20 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom: 6 of Diamonds     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:       6 of Clubs     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom:    6 of Clubs     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (AI) Hand (10 Cards):
+(#0 - 8 of Clubs), (#1 - 3 of Diamonds), (#2 - 5 of Clubs), (#3 - Q of Spades), (#4 - 9 of Spades), (#5 - 10 of Clubs), (#6 - 2 of Diamonds), (#7 - 7 of Spades), (#8 - Q of Diamonds), (#9 - 7 of Hearts)
+
+Number of Cards in Each Player's Hand:
+greg: 6
+AI: 10
+
+What will you do? (h for help): 
+play: 6, w
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       9 of Clubs     | Top:      6 of Spades     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:   8 of Spades     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:    2 of Diamonds     |                           | Top:      A of Spades     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          20 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom: 6 of Diamonds     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:       6 of Clubs     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom:    6 of Clubs     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (AI) Hand (9 Cards):
+(#0 - 8 of Clubs), (#1 - 3 of Diamonds), (#2 - 5 of Clubs), (#3 - Q of Spades), (#4 - 9 of Spades), (#5 - 10 of Clubs), (#6 - 7 of Spades), (#7 - Q of Diamonds), (#8 - 7 of Hearts)
+
+Number of Cards in Each Player's Hand:
+greg: 6
+AI: 9
+
+What will you do? (h for help): 
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NEXT PLAYER, PRESS ENTER WHEN READY
+
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       9 of Clubs     | Top:      6 of Spades     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:   8 of Spades     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:    2 of Diamonds     |                           | Top:      A of Spades     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          19 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom: 6 of Diamonds     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:       6 of Clubs     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom:    6 of Clubs     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (greg) Hand (7 Cards):
+(#0 - A of Diamonds), (#1 - 3 of Hearts), (#2 - J of Spades), (#3 - 9 of Diamonds), (#4 - J of Diamonds), (#5 - J of Hearts), (#6 - K of Diamonds)
+
+Number of Cards in Each Player's Hand:
+greg: 7
+AI: 9
+
+What will you do? (h for help): 
+play: 6, c2
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       9 of Clubs     | Top:      6 of Spades     | Top:    K of Diamonds     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:   8 of Spades     | Bottom: K of Diamonds     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:    2 of Diamonds     |                           | Top:      A of Spades     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          19 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom: 6 of Diamonds     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:       6 of Clubs     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom:    6 of Clubs     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (greg) Hand (6 Cards):
+(#0 - A of Diamonds), (#1 - 3 of Hearts), (#2 - J of Spades), (#3 - 9 of Diamonds), (#4 - J of Diamonds), (#5 - J of Hearts)
+
+Number of Cards in Each Player's Hand:
+greg: 6
+AI: 9
+
+What will you do? (h for help): 
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NEXT PLAYER, PRESS ENTER WHEN READY
+
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       9 of Clubs     | Top:      6 of Spades     | Top:    K of Diamonds     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:   8 of Spades     | Bottom: K of Diamonds     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:    2 of Diamonds     |                           | Top:      A of Spades     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          18 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom: 6 of Diamonds     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:       6 of Clubs     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom:    6 of Clubs     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (AI) Hand (10 Cards):
+(#0 - 8 of Clubs), (#1 - 3 of Diamonds), (#2 - 5 of Clubs), (#3 - Q of Spades), (#4 - 9 of Spades), (#5 - 10 of Clubs), (#6 - 7 of Spades), (#7 - Q of Diamonds), (#8 - 7 of Hearts), (#9 - 8 of Hearts)
+
+Number of Cards in Each Player's Hand:
+greg: 6
+AI: 10
+
+What will you do? (h for help): 
+play: 9, c1
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:      8 of Hearts     | Top:      6 of Spades     | Top:    K of Diamonds     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:   8 of Spades     | Bottom: K of Diamonds     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:    2 of Diamonds     |                           | Top:      A of Spades     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          18 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom: 6 of Diamonds     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:       6 of Clubs     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom:    6 of Clubs     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (AI) Hand (9 Cards):
+(#0 - 8 of Clubs), (#1 - 3 of Diamonds), (#2 - 5 of Clubs), (#3 - Q of Spades), (#4 - 9 of Spades), (#5 - 10 of Clubs), (#6 - 7 of Spades), (#7 - Q of Diamonds), (#8 - 7 of Hearts)
+
+Number of Cards in Each Player's Hand:
+greg: 6
+AI: 9
+
+What will you do? (h for help): 
+play: 6, c1
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:      7 of Spades     | Top:      6 of Spades     | Top:    K of Diamonds     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:   8 of Spades     | Bottom: K of Diamonds     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:    2 of Diamonds     |                           | Top:      A of Spades     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          18 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom: 6 of Diamonds     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:       6 of Clubs     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom:    6 of Clubs     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (AI) Hand (8 Cards):
+(#0 - 8 of Clubs), (#1 - 3 of Diamonds), (#2 - 5 of Clubs), (#3 - Q of Spades), (#4 - 9 of Spades), (#5 - 10 of Clubs), (#6 - Q of Diamonds), (#7 - 7 of Hearts)
+
+Number of Cards in Each Player's Hand:
+greg: 6
+AI: 8
+
+What will you do? (h for help): 
+play: 3, c2
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:      7 of Spades     | Top:      6 of Spades     | Top:      Q of Spades     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:   8 of Spades     | Bottom: K of Diamonds     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:    2 of Diamonds     |                           | Top:      A of Spades     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          18 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom: 6 of Diamonds     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:       6 of Clubs     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom:    6 of Clubs     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (AI) Hand (7 Cards):
+(#0 - 8 of Clubs), (#1 - 3 of Diamonds), (#2 - 5 of Clubs), (#3 - 9 of Spades), (#4 - 10 of Clubs), (#5 - Q of Diamonds), (#6 - 7 of Hearts)
+
+Number of Cards in Each Player's Hand:
+greg: 6
+AI: 7
+
+What will you do? (h for help): 
+move: w, c1
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:    2 of Diamonds     | Top:      6 of Spades     | Top:      Q of Spades     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:   8 of Spades     | Bottom: K of Diamonds     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     |                           | Top:      A of Spades     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          18 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom:          NONE     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:       6 of Clubs     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom:    6 of Clubs     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (AI) Hand (7 Cards):
+(#0 - 8 of Clubs), (#1 - 3 of Diamonds), (#2 - 5 of Clubs), (#3 - 9 of Spades), (#4 - 10 of Clubs), (#5 - Q of Diamonds), (#6 - 7 of Hearts)
+
+Number of Cards in Each Player's Hand:
+greg: 6
+AI: 7
+
+What will you do? (h for help): 
+play: 0, w
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:    2 of Diamonds     | Top:      6 of Spades     | Top:      Q of Spades     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:   8 of Spades     | Bottom: K of Diamonds     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       8 of Clubs     |                           | Top:      A of Spades     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          18 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom:    8 of Clubs     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:       6 of Clubs     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom:    6 of Clubs     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (AI) Hand (6 Cards):
+(#0 - 3 of Diamonds), (#1 - 5 of Clubs), (#2 - 9 of Spades), (#3 - 10 of Clubs), (#4 - Q of Diamonds), (#5 - 7 of Hearts)
+
+Number of Cards in Each Player's Hand:
+greg: 6
+AI: 6
+
+What will you do? (h for help): 
+play: 5, w
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:    2 of Diamonds     | Top:      6 of Spades     | Top:      Q of Spades     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:   8 of Spades     | Bottom: K of Diamonds     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:      7 of Hearts     |                           | Top:      A of Spades     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          18 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom:    8 of Clubs     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:       6 of Clubs     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom:    6 of Clubs     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (AI) Hand (5 Cards):
+(#0 - 3 of Diamonds), (#1 - 5 of Clubs), (#2 - 9 of Spades), (#3 - 10 of Clubs), (#4 - Q of Diamonds)
+
+Number of Cards in Each Player's Hand:
+greg: 6
+AI: 5
+
+What will you do? (h for help): 
+move: s, w
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:    2 of Diamonds     | Top:      6 of Spades     | Top:      Q of Spades     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:   8 of Spades     | Bottom: K of Diamonds     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       6 of Clubs     |                           | Top:      A of Spades     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          18 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom:    8 of Clubs     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:             NONE     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom:          NONE     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (AI) Hand (5 Cards):
+(#0 - 3 of Diamonds), (#1 - 5 of Clubs), (#2 - 9 of Spades), (#3 - 10 of Clubs), (#4 - Q of Diamonds)
+
+Number of Cards in Each Player's Hand:
+greg: 6
+AI: 5
+
+What will you do? (h for help): 
+play: 0, s
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:    2 of Diamonds     | Top:      6 of Spades     | Top:      Q of Spades     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:   8 of Spades     | Bottom: K of Diamonds     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       6 of Clubs     |                           | Top:      A of Spades     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          18 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom:    8 of Clubs     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:    3 of Diamonds     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom: 3 of Diamonds     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (AI) Hand (4 Cards):
+(#0 - 5 of Clubs), (#1 - 9 of Spades), (#2 - 10 of Clubs), (#3 - Q of Diamonds)
+
+Number of Cards in Each Player's Hand:
+greg: 6
+AI: 4
+
+What will you do? (h for help): 
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NEXT PLAYER, PRESS ENTER WHEN READY
+
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:    2 of Diamonds     | Top:      6 of Spades     | Top:      Q of Spades     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:   8 of Spades     | Bottom: K of Diamonds     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       6 of Clubs     |                           | Top:      A of Spades     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          17 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom:    8 of Clubs     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:    3 of Diamonds     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom: 3 of Diamonds     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (greg) Hand (7 Cards):
+(#0 - A of Diamonds), (#1 - 3 of Hearts), (#2 - J of Spades), (#3 - 9 of Diamonds), (#4 - J of Diamonds), (#5 - J of Hearts), (#6 - 9 of Hearts)
+
+Number of Cards in Each Player's Hand:
+greg: 7
+AI: 4
+
+What will you do? (h for help): 
+play: 4, c2
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:    2 of Diamonds     | Top:      6 of Spades     | Top:    J of Diamonds     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:   8 of Spades     | Bottom: K of Diamonds     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       6 of Clubs     |                           | Top:      A of Spades     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          17 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom:    8 of Clubs     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:    3 of Diamonds     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom: 3 of Diamonds     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (greg) Hand (6 Cards):
+(#0 - A of Diamonds), (#1 - 3 of Hearts), (#2 - J of Spades), (#3 - 9 of Diamonds), (#4 - J of Hearts), (#5 - 9 of Hearts)
+
+Number of Cards in Each Player's Hand:
+greg: 6
+AI: 4
+
+What will you do? (h for help): 
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NEXT PLAYER, PRESS ENTER WHEN READY
+
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:    2 of Diamonds     | Top:      6 of Spades     | Top:    J of Diamonds     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:   8 of Spades     | Bottom: K of Diamonds     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       6 of Clubs     |                           | Top:      A of Spades     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          16 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom:    8 of Clubs     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:    3 of Diamonds     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom: 3 of Diamonds     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (AI) Hand (5 Cards):
+(#0 - 5 of Clubs), (#1 - 9 of Spades), (#2 - 10 of Clubs), (#3 - Q of Diamonds), (#4 - A of Clubs)
+
+Number of Cards in Each Player's Hand:
+greg: 6
+AI: 5
+
+What will you do? (h for help): 
+play: 4, c1
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       A of Clubs     | Top:      6 of Spades     | Top:    J of Diamonds     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:   8 of Spades     | Bottom: K of Diamonds     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       6 of Clubs     |                           | Top:      A of Spades     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          16 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom:    8 of Clubs     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:    3 of Diamonds     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom: 3 of Diamonds     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (AI) Hand (4 Cards):
+(#0 - 5 of Clubs), (#1 - 9 of Spades), (#2 - 10 of Clubs), (#3 - Q of Diamonds)
+
+Number of Cards in Each Player's Hand:
+greg: 6
+AI: 4
+
+What will you do? (h for help): 
+play: 2, c2
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       A of Clubs     | Top:      6 of Spades     | Top:      10 of Clubs     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:   8 of Spades     | Bottom: K of Diamonds     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       6 of Clubs     |                           | Top:      A of Spades     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          16 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom:    8 of Clubs     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:    3 of Diamonds     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom: 3 of Diamonds     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (AI) Hand (3 Cards):
+(#0 - 5 of Clubs), (#1 - 9 of Spades), (#2 - Q of Diamonds)
+
+Number of Cards in Each Player's Hand:
+greg: 6
+AI: 3
+
+What will you do? (h for help): 
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NEXT PLAYER, PRESS ENTER WHEN READY
+
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       A of Clubs     | Top:      6 of Spades     | Top:      10 of Clubs     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:   8 of Spades     | Bottom: K of Diamonds     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       6 of Clubs     |                           | Top:      A of Spades     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          15 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom:    8 of Clubs     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:    3 of Diamonds     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom: 3 of Diamonds     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (greg) Hand (7 Cards):
+(#0 - A of Diamonds), (#1 - 3 of Hearts), (#2 - J of Spades), (#3 - 9 of Diamonds), (#4 - J of Hearts), (#5 - 9 of Hearts), (#6 - 5 of Diamonds)
+
+Number of Cards in Each Player's Hand:
+greg: 7
+AI: 3
+
+What will you do? (h for help): 
+play: 6, n
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       A of Clubs     | Top:    5 of Diamonds     | Top:      10 of Clubs     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:   8 of Spades     | Bottom: K of Diamonds     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       6 of Clubs     |                           | Top:      A of Spades     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          15 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom:    8 of Clubs     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:    3 of Diamonds     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom: 3 of Diamonds     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (greg) Hand (6 Cards):
+(#0 - A of Diamonds), (#1 - 3 of Hearts), (#2 - J of Spades), (#3 - 9 of Diamonds), (#4 - J of Hearts), (#5 - 9 of Hearts)
+
+Number of Cards in Each Player's Hand:
+greg: 6
+AI: 3
+
+What will you do? (h for help): 
+play: 3, c2
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       A of Clubs     | Top:    5 of Diamonds     | Top:    9 of Diamonds     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:   8 of Spades     | Bottom: K of Diamonds     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       6 of Clubs     |                           | Top:      A of Spades     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          15 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom:    8 of Clubs     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:    3 of Diamonds     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom: 3 of Diamonds     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (greg) Hand (5 Cards):
+(#0 - A of Diamonds), (#1 - 3 of Hearts), (#2 - J of Spades), (#3 - J of Hearts), (#4 - 9 of Hearts)
+
+Number of Cards in Each Player's Hand:
+greg: 5
+AI: 3
+
+What will you do? (h for help): 
+move: n, c2
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       A of Clubs     | Top:             NONE     | Top:    5 of Diamonds     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:          NONE     | Bottom: K of Diamonds     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       6 of Clubs     |                           | Top:      A of Spades     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          15 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom:    8 of Clubs     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:    3 of Diamonds     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom: 3 of Diamonds     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (greg) Hand (5 Cards):
+(#0 - A of Diamonds), (#1 - 3 of Hearts), (#2 - J of Spades), (#3 - J of Hearts), (#4 - 9 of Hearts)
+
+Number of Cards in Each Player's Hand:
+greg: 5
+AI: 3
+
+What will you do? (h for help): 
+play: 0, n
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       A of Clubs     | Top:    A of Diamonds     | Top:    5 of Diamonds     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom: A of Diamonds     | Bottom: K of Diamonds     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       6 of Clubs     |                           | Top:      A of Spades     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          15 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom:    8 of Clubs     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:    3 of Diamonds     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom: 3 of Diamonds     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (greg) Hand (4 Cards):
+(#0 - 3 of Hearts), (#1 - J of Spades), (#2 - J of Hearts), (#3 - 9 of Hearts)
+
+Number of Cards in Each Player's Hand:
+greg: 4
+AI: 3
+
+What will you do? (h for help): 
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NEXT PLAYER, PRESS ENTER WHEN READY
+
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       A of Clubs     | Top:    A of Diamonds     | Top:    5 of Diamonds     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom: A of Diamonds     | Bottom: K of Diamonds     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       6 of Clubs     |                           | Top:      A of Spades     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          14 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom:    8 of Clubs     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:    3 of Diamonds     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom: 3 of Diamonds     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (AI) Hand (4 Cards):
+(#0 - 5 of Clubs), (#1 - 9 of Spades), (#2 - Q of Diamonds), (#3 - 2 of Clubs)
+
+Number of Cards in Each Player's Hand:
+greg: 4
+AI: 4
+
+What will you do? (h for help): 
+play: 3, s
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       A of Clubs     | Top:    A of Diamonds     | Top:    5 of Diamonds     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom: A of Diamonds     | Bottom: K of Diamonds     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       6 of Clubs     |                           | Top:      A of Spades     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          14 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom:    8 of Clubs     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:       2 of Clubs     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom: 3 of Diamonds     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (AI) Hand (3 Cards):
+(#0 - 5 of Clubs), (#1 - 9 of Spades), (#2 - Q of Diamonds)
+
+Number of Cards in Each Player's Hand:
+greg: 4
+AI: 3
+
+What will you do? (h for help): 
+move: n, s
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       A of Clubs     | Top:             NONE     | Top:    5 of Diamonds     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:          NONE     | Bottom: K of Diamonds     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       6 of Clubs     |                           | Top:      A of Spades     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          14 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom:    8 of Clubs     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:    A of Diamonds     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom: 3 of Diamonds     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (AI) Hand (3 Cards):
+(#0 - 5 of Clubs), (#1 - 9 of Spades), (#2 - Q of Diamonds)
+
+Number of Cards in Each Player's Hand:
+greg: 4
+AI: 3
+
+What will you do? (h for help): 
+play: 0, n
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       A of Clubs     | Top:       5 of Clubs     | Top:    5 of Diamonds     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:    5 of Clubs     | Bottom: K of Diamonds     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       6 of Clubs     |                           | Top:      A of Spades     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          14 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom:    8 of Clubs     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:    A of Diamonds     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom: 3 of Diamonds     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (AI) Hand (2 Cards):
+(#0 - 9 of Spades), (#1 - Q of Diamonds)
+
+Number of Cards in Each Player's Hand:
+greg: 4
+AI: 2
+
+What will you do? (h for help): 
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NEXT PLAYER, PRESS ENTER WHEN READY
+
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       A of Clubs     | Top:       5 of Clubs     | Top:    5 of Diamonds     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:    5 of Clubs     | Bottom: K of Diamonds     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       6 of Clubs     |                           | Top:      A of Spades     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          13 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom:    8 of Clubs     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:    A of Diamonds     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom: 3 of Diamonds     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (greg) Hand (5 Cards):
+(#0 - 3 of Hearts), (#1 - J of Spades), (#2 - J of Hearts), (#3 - 9 of Hearts), (#4 - 2 of Spades)
+
+Number of Cards in Each Player's Hand:
+greg: 5
+AI: 2
+
+What will you do? (h for help): 
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NEXT PLAYER, PRESS ENTER WHEN READY
+
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       A of Clubs     | Top:       5 of Clubs     | Top:    5 of Diamonds     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:    5 of Clubs     | Bottom: K of Diamonds     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       6 of Clubs     |                           | Top:      A of Spades     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          12 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom:    8 of Clubs     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:    A of Diamonds     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom: 3 of Diamonds     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (AI) Hand (3 Cards):
+(#0 - 9 of Spades), (#1 - Q of Diamonds), (#2 - 5 of Hearts)
+
+Number of Cards in Each Player's Hand:
+greg: 5
+AI: 3
+
+What will you do? (h for help): 
+play: 2, w
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       A of Clubs     | Top:       5 of Clubs     | Top:    5 of Diamonds     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:    5 of Clubs     | Bottom: K of Diamonds     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:      5 of Hearts     |                           | Top:      A of Spades     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          12 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom:    8 of Clubs     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:    A of Diamonds     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom: 3 of Diamonds     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (AI) Hand (2 Cards):
+(#0 - 9 of Spades), (#1 - Q of Diamonds)
+
+Number of Cards in Each Player's Hand:
+greg: 5
+AI: 2
+
+What will you do? (h for help): 
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NEXT PLAYER, PRESS ENTER WHEN READY
+
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       A of Clubs     | Top:       5 of Clubs     | Top:    5 of Diamonds     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:    5 of Clubs     | Bottom: K of Diamonds     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:      5 of Hearts     |                           | Top:      A of Spades     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          11 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom:    8 of Clubs     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:             NONE     | Top:    A of Diamonds     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:          NONE     | Bottom: 3 of Diamonds     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (greg) Hand (6 Cards):
+(#0 - 3 of Hearts), (#1 - J of Spades), (#2 - J of Hearts), (#3 - 9 of Hearts), (#4 - 2 of Spades), (#5 - K of Spades)
+
+Number of Cards in Each Player's Hand:
+greg: 6
+AI: 2
+
+What will you do? (h for help): 
+play: 5, c3
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       A of Clubs     | Top:       5 of Clubs     | Top:    5 of Diamonds     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:    5 of Clubs     | Bottom: K of Diamonds     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:      5 of Hearts     |                           | Top:      A of Spades     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          11 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom:    8 of Clubs     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:      K of Spades     | Top:    A of Diamonds     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:   K of Spades     | Bottom: 3 of Diamonds     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (greg) Hand (5 Cards):
+(#0 - 3 of Hearts), (#1 - J of Spades), (#2 - J of Hearts), (#3 - 9 of Hearts), (#4 - 2 of Spades)
+
+Number of Cards in Each Player's Hand:
+greg: 5
+AI: 2
+
+What will you do? (h for help): 
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NEXT PLAYER, PRESS ENTER WHEN READY
+
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       A of Clubs     | Top:       5 of Clubs     | Top:    5 of Diamonds     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:    5 of Clubs     | Bottom: K of Diamonds     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:      5 of Hearts     |                           | Top:      A of Spades     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          10 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom:    8 of Clubs     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:      K of Spades     | Top:    A of Diamonds     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:   K of Spades     | Bottom: 3 of Diamonds     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (AI) Hand (3 Cards):
+(#0 - 9 of Spades), (#1 - Q of Diamonds), (#2 - 4 of Clubs)
+
+Number of Cards in Each Player's Hand:
+greg: 5
+AI: 3
+
+What will you do? (h for help): 
+play: 2, w
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       A of Clubs     | Top:       5 of Clubs     | Top:    5 of Diamonds     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:    5 of Clubs     | Bottom: K of Diamonds     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       4 of Clubs     |                           | Top:      A of Spades     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          10 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom:    8 of Clubs     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:      K of Spades     | Top:    A of Diamonds     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:   K of Spades     | Bottom: 3 of Diamonds     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (AI) Hand (2 Cards):
+(#0 - 9 of Spades), (#1 - Q of Diamonds)
+
+Number of Cards in Each Player's Hand:
+greg: 5
+AI: 2
+
+What will you do? (h for help): 
+play: 1, c3
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       A of Clubs     | Top:       5 of Clubs     | Top:    5 of Diamonds     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:    5 of Clubs     | Bottom: K of Diamonds     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       4 of Clubs     |                           | Top:      A of Spades     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          10 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom:    8 of Clubs     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:    Q of Diamonds     | Top:    A of Diamonds     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:   K of Spades     | Bottom: 3 of Diamonds     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (AI) Hand (1 Cards):
+(#0 - 9 of Spades)
+
+Number of Cards in Each Player's Hand:
+greg: 5
+AI: 1
+
+What will you do? (h for help): 
+move: s, w
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       A of Clubs     | Top:       5 of Clubs     | Top:    5 of Diamonds     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:    5 of Clubs     | Bottom: K of Diamonds     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:    A of Diamonds     |                           | Top:      A of Spades     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          10 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom:    8 of Clubs     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:    Q of Diamonds     | Top:             NONE     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:   K of Spades     | Bottom:          NONE     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (AI) Hand (1 Cards):
+(#0 - 9 of Spades)
+
+Number of Cards in Each Player's Hand:
+greg: 5
+AI: 1
+
+What will you do? (h for help): 
+play: 0, s
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:       A of Clubs     | Top:       5 of Clubs     | Top:    5 of Diamonds     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C1*           |            *N*            |            *C2*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:    K of Clubs     | Bottom:    5 of Clubs     | Bottom: K of Diamonds     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:    A of Diamonds     |                           | Top:      A of Spades     |
+|                           |                           |                           |
+|            ***            |                           |            ***            |
+|            *W*            |           DECK            |            *E*            |
+|            ***            |          10 CARDS         |            ***            |
+|                           |                           |                           |
+| Bottom:    8 of Clubs     |                           | Bottom:   3 of Spades     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+|                           |                           |                           |
+| Top:    Q of Diamonds     | Top:      9 of Spades     | Top:             NONE     |
+|                           |                           |                           |
+|            ****           |            ***            |            ****           |
+|            *C3*           |            *S*            |            *C4*           |
+|            ****           |            ***            |            ****           |
+|                           |                           |                           |
+| Bottom:   K of Spades     | Bottom:   9 of Spades     | Bottom:          NONE     |
+|                           |                           |                           |
+*---------------------------*---------------------------*---------------------------*
+
+Player's (AI) Hand (0 Cards):
+
+
+Number of Cards in Each Player's Hand:
+greg: 5
+AI: 0
+
+Congrats AI, you win~
+
+Process finished with exit code 0
