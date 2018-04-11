@@ -1,8 +1,5 @@
 CSC495 (Programming Languages) - Project 3
-Group Q
-Wenting Zheng (wzheng8)
-Garrett Watts (gcwatts)
-Raymond Woods (rjwoods3)
+Group Q - Wenting Zheng (wzheng8), Garrett Watts (gcwatts), Raymond Woods (rjwoods3)
 
 To Run Game:
 1. Run the Game.py file
@@ -21,7 +18,7 @@ Kings Corner Rules:
 2. The deck is then placed face down on the table
 3. One card each is dealt face up directly next to the deck in each North East West South (NEWS) position
 4. This creates 8 playable position on the field, the NEWS positions, and the empty corner positions.
-5. On a playerís turn a player draws a card from the center deck. 
+5. On a player‚Äôs turn a player draws a card from the center deck. 
 6. They can then play a card from their hand on top of a face up card, provided that the card is one value below and the opposite color suit.
    -> For example, a 4 of spades or 4 of clubs can be played on top of a 5 of hearts or a 5 of diamonds.
 7. A king can only be played on one of the four empty corner spaces, and no other cards can be played on to a corner position
@@ -45,11 +42,11 @@ Bartok Rules:
 1. Everyone is dealt a hand of 7 cards
 2. One card is dealt face up on the table
 3. The remaining cards are placed face down on the table as the deck
-4. On a playerís turn, they can play any card of the same rank or suit by placing it on top of the face-up stack in the middle, which will end your turn
-5. If you canít play any cards, you must draw a card and your turn ends
+4. On a player‚Äôs turn, they can play any card of the same rank or suit by placing it on top of the face-up stack in the middle, which will end your turn
+5. If you can‚Äôt play any cards, you must draw a card and your turn ends
 6. Whoever runs out of cards in the hand first is declared the winner
 E1: If at any point you hold all 4 cards of the same rank in your hand, you immediately win the game
-E2: An ace can be played on top of any card, and the next player must play the suit chosen by the previous player. This is effectively a ìwild cardî
+E2: An ace can be played on top of any card, and the next player must play the suit chosen by the previous player. This is effectively a ‚Äúwild card‚Äù
 
 Play commands:
 
